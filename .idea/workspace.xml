@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="" />
+    <ignored path="JavaRushTasks.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaRushTasks" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1717/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+              <folding>
+                <element signature="method#main#0;class#Solution#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectStreamField.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/ObjectStreamField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1287">
+              <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+              <folding>
+                <element signature="e#1572#1573#0" expanded="true" />
+                <element signature="e#1611#1612#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectOutputStream.java" pinned="false" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/ObjectOutputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="743">
+              <caret line="459" column="13" selection-start-line="459" selection-start-column="13" selection-end-line="459" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/ObjectInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5643">
+              <caret line="1078" column="39" selection-start-line="1078" selection-start-column="29" selection-end-line="1078" selection-end-column="39" />
+              <folding>
+                <element signature="docComment;class#ObjectInputStream#0" />
+                <element signature="e#9822#9859#0" />
+                <element signature="e#9912#9971#0" />
+                <element signature="e#10040#10112#0" />
+                <element signature="initializer##0;class#ObjectInputStream#0" />
+                <element signature="e#10651#11022#0" />
+                <element signature="e#10689#10736#0" />
+                <element signature="e#10859#10912#0" />
+                <element signature="e#11028#11083#0" />
+                <element signature="e#11132#11163#0" />
+                <element signature="e#11208#11230#0" />
+                <element signature="e#11258#11289#0" />
+                <element signature="e#11323#11362#0" />
+                <element signature="e#11406#11471#0" />
+                <element signature="e#11518#11590#0" />
+                <element signature="e#11640#11688#0" />
+                <element signature="e#11723#11790#0" />
+                <element signature="e#11837#11875#0" />
+                <element signature="e#11916#12124#0" />
+                <element signature="e#12176#13365#0" />
+                <element signature="e#12176#13680#0" />
+                <element signature="e#13686#14524#0" />
+                <element signature="e#13686#14863#0" />
+                <element signature="e#14869#16552#0" />
+                <element signature="e#14869#17365#0" />
+                <element signature="e#17371#18100#0" />
+                <element signature="e#17371#18226#0" />
+                <element signature="e#18232#20851#0" />
+                <element signature="e#18232#21565#0" />
+                <element signature="e#21571#22112#0" />
+                <element signature="e#21571#23037#0" />
+                <element signature="e#23043#23566#0" />
+                <element signature="e#23043#24447#0" />
+                <element signature="e#24453#25388#0" />
+                <element signature="e#24453#25662#0" />
+                <element signature="e#25668#28017#0" />
+                <element signature="e#25668#28489#0" />
+                <element signature="e#28495#31295#0" />
+                <element signature="e#28495#32645#0" />
+                <element signature="e#32651#34074#0" />
+                <element signature="e#32651#34168#0" />
+                <element signature="e#34174#35248#0" />
+                <element signature="e#34174#35689#0" />
+                <element signature="e#35695#36135#0" />
+                <element signature="e#35695#36501#0" />
+                <element signature="e#36507#37479#0" />
+                <element signature="e#36507#37708#0" />
+                <element signature="e#37714#37942#0" />
+                <element signature="e#37714#38018#0" />
+                <element signature="e#38024#38629#0" />
+                <element signature="e#38024#39000#0" />
+                <element signature="e#39006#39268#0" />
+                <element signature="e#39006#39354#0" />
+                <element signature="e#39360#39543#0" />
+                <element signature="e#39360#39868#0" />
+                <element signature="e#39874#40070#0" />
+                <element signature="e#39874#40164#0" />
+                <element signature="e#40170#40370#0" />
+                <element signature="e#40170#40456#0" />
+                <element signature="e#40462#40671#0" />
+                <element signature="e#40462#40772#0" />
+                <element signature="e#40778#40979#0" />
+                <element signature="e#40778#41065#0" />
+                <element signature="e#41071#41274#0" />
+                <element signature="e#41071#41363#0" />
+                <element signature="e#41369#41582#0" />
+                <element signature="e#41369#41684#0" />
+                <element signature="e#41690#41893#0" />
+                <element signature="e#41690#41976#0" />
+                <element signature="e#41982#42183#0" />
+                <element signature="e#41982#42269#0" />
+                <element signature="e#42275#42478#0" />
+                <element signature="e#42275#42566#0" />
+                <element signature="e#42572#42777#0" />
+                <element signature="e#42572#42868#0" />
+                <element signature="e#42874#43123#0" />
+                <element signature="e#42874#43238#0" />
+                <element signature="e#43244#43598#0" />
+                <element signature="e#43244#43890#0" />
+                <element signature="e#43896#44098#0" />
+                <element signature="e#43896#44194#0" />
+                <element signature="e#44200#44610#0" />
+                <element signature="e#44200#44713#0" />
+                <element signature="e#44719#45128#0" />
+                <element signature="e#44719#45213#0" />
+                <element signature="e#45359#45543#0" />
+                <element signature="e#45619#46120#0" />
+                <element signature="e#46205#46814#0" />
+                <element signature="e#46918#47521#0" />
+                <element signature="e#47607#48210#0" />
+                <element signature="e#48296#48901#0" />
+                <element signature="e#48989#49590#0" />
+                <element signature="e#49674#50277#0" />
+                <element signature="e#50363#50968#0" />
+                <element signature="e#51056#51663#0" />
+                <element signature="e#51753#52360#0" />
+                <element signature="e#52452#52745#0" />
+                <element signature="e#52452#53505#0" />
+                <element signature="e#53511#53715#0" />
+                <element signature="e#53511#54774#0" />
+                <element signature="class#53853:54719" />
+                <element signature="method#run#0;class#53853:54719" />
+                <element signature="e#54780#54831#0" />
+                <element signature="e#54780#54912#0" />
+                <element signature="e#54918#54974#0" />
+                <element signature="e#54918#57975#0" />
+                <element signature="e#57981#58397#0" />
+                <element signature="e#57981#58724#0" />
+                <element signature="e#58730#58860#0" />
+                <element signature="e#58730#59546#0" />
+                <element signature="e#59552#59639#0" />
+                <element signature="e#59552#59841#0" />
+                <element signature="e#59847#59979#0" />
+                <element signature="e#59847#60925#0" />
+                <element signature="e#60931#61200#0" />
+                <element signature="e#60931#61759#0" />
+                <element signature="e#61765#62058#0" />
+                <element signature="e#61765#62977#0" />
+                <element signature="e#62983#63212#0" />
+                <element signature="e#63218#63527#0" />
+                <element signature="e#63218#65114#0" />
+                <element signature="e#64484#64535#0" />
+                <element signature="e#65120#65437#0" />
+                <element signature="e#65120#66786#0" />
+                <element signature="e#66792#66900#0" />
+                <element signature="e#66792#67513#0" />
+                <element signature="e#67519#67664#0" />
+                <element signature="e#67519#69760#0" />
+                <element signature="e#69766#69918#0" />
+                <element signature="e#69766#71230#0" />
+                <element signature="e#71236#71561#0" />
+                <element signature="e#71236#73251#0" />
+                <element signature="e#73257#73515#0" />
+                <element signature="e#73257#75545#0" />
+                <element signature="e#75551#75847#0" />
+                <element signature="e#75551#78970#0" />
+                <element signature="e#78976#79077#0" />
+                <element signature="e#78976#79782#0" />
+                <element signature="e#79788#80020#0" />
+                <element signature="e#79788#81292#0" />
+                <element signature="e#81298#81512#0" />
+                <element signature="e#81298#81745#0" />
+                <element signature="e#81751#81951#0" />
+                <element signature="e#81751#82186#0" />
+                <element signature="e#82192#82262#0" />
+                <element signature="e#82530#82601#0" />
+                <element signature="e#82877#83397#0" />
+                <element signature="e#83522#83573#0" />
+                <element signature="e#83522#88345#0" />
+                <element signature="e#83633#83687#0" />
+                <element signature="e#83742#83771#0" />
+                <element signature="e#83819#83845#0" />
+                <element signature="e#83894#83927#0" />
+                <element signature="e#83977#84096#0" />
+                <element signature="e#83977#84348#0" />
+                <element signature="e#84452#84573#0" />
+                <element signature="e#84583#84786#0" />
+                <element signature="e#84796#84973#0" />
+                <element signature="e#84983#85179#0" />
+                <element signature="e#85189#85384#0" />
+                <element signature="e#85394#85585#0" />
+                <element signature="e#85595#85790#0" />
+                <element signature="e#85800#85991#0" />
+                <element signature="e#86001#86200#0" />
+                <element signature="e#86210#86655#0" />
+                <element signature="e#86665#86744#0" />
+                <element signature="e#86665#87285#0" />
+                <element signature="e#87295#87836#0" />
+                <element signature="e#87295#88339#0" />
+                <element signature="e#88351#88474#0" />
+                <element signature="e#88351#91249#0" />
+                <element signature="e#88526#89003#0" />
+                <element signature="e#88719#88993#0" />
+                <element signature="e#89013#89044#0" />
+                <element signature="e#89085#89147#0" />
+                <element signature="e#89085#89184#0" />
+                <element signature="e#89194#89310#0" />
+                <element signature="e#89194#89996#0" />
+                <element signature="e#90006#90378#0" />
+                <element signature="e#90006#91087#0" />
+                <element signature="class#90574:90847" />
+                <element signature="method#run#0;class#90574:90847" />
+                <element signature="e#91097#91178#0" />
+                <element signature="e#91255#91326#0" />
+                <element signature="e#91255#93503#0" />
+                <element signature="e#91399#91423#0" />
+                <element signature="e#91470#91488#0" />
+                <element signature="e#91530#91619#0" />
+                <element signature="e#91707#91848#0" />
+                <element signature="e#91707#91961#0" />
+                <element signature="e#91971#92203#0" />
+                <element signature="e#92213#92642#0" />
+                <element signature="e#92652#92972#0" />
+                <element signature="e#92982#93290#0" />
+                <element signature="e#93300#93413#0" />
+                <element signature="e#93423#93497#0" />
+                <element signature="e#93509#93977#0" />
+                <element signature="e#93509#124619#0" />
+                <element signature="e#94080#94112#0" />
+                <element signature="e#94177#94216#0" />
+                <element signature="e#94279#94339#0" />
+                <element signature="e#94402#94472#0" />
+                <element signature="e#94536#94580#0" />
+                <element signature="e#94650#94694#0" />
+                <element signature="e#94766#94806#0" />
+                <element signature="e#94877#94899#0" />
+                <element signature="e#95027#95057#0" />
+                <element signature="e#95095#95162#0" />
+                <element signature="e#95201#95267#0" />
+                <element signature="e#95309#95369#0" />
+                <element signature="e#95420#95481#0" />
+                <element signature="e#95534#95681#0" />
+                <element signature="e#95534#95830#0" />
+                <element signature="e#95840#96221#0" />
+                <element signature="e#95840#96671#0" />
+                <element signature="e#96681#96795#0" />
+                <element signature="e#96880#97103#0" />
+                <element signature="e#96880#97351#0" />
+                <element signature="e#97361#97729#0" />
+                <element signature="e#97361#100483#0" />
+                <element signature="e#100493#100857#0" />
+                <element signature="e#100493#102003#0" />
+                <element signature="e#102013#102221#0" />
+                <element signature="e#102013#102444#0" />
+                <element signature="e#102454#102665#0" />
+                <element signature="e#102454#102953#0" />
+                <element signature="e#102963#103159#0" />
+                <element signature="e#102963#103358#0" />
+                <element signature="e#103718#104006#0" />
+                <element signature="e#104016#104135#0" />
+                <element signature="e#104145#104933#0" />
+                <element signature="e#104943#105967#0" />
+                <element signature="e#105977#106171#0" />
+                <element signature="e#106181#106524#0" />
+                <element signature="e#106181#107366#0" />
+                <element signature="e#107729#107837#0" />
+                <element signature="e#107847#107970#0" />
+                <element signature="e#107980#108332#0" />
+                <element signature="e#108342#108437#0" />
+                <element signature="e#108447#108644#0" />
+                <element signature="e#108654#108845#0" />
+                <element signature="e#108855#109046#0" />
+                <element signature="e#109056#109385#0" />
+                <element signature="e#109395#109729#0" />
+                <element signature="e#109739#110094#0" />
+                <element signature="e#110104#110428#0" />
+                <element signature="e#110438#110772#0" />
+                <element signature="e#110782#111111#0" />
+                <element signature="e#111121#111460#0" />
+                <element signature="e#111470#111577#0" />
+                <element signature="e#111587#111759#0" />
+                <element signature="e#112151#112885#0" />
+                <element signature="e#112895#113664#0" />
+                <element signature="e#113674#114447#0" />
+                <element signature="e#114457#115222#0" />
+                <element signature="e#115232#115939#0" />
+                <element signature="e#115949#116718#0" />
+                <element signature="e#116728#117439#0" />
+                <element signature="e#117449#117698#0" />
+                <element signature="e#117449#117802#0" />
+                <element signature="e#117812#118009#0" />
+                <element signature="e#117812#119082#0" />
+                <element signature="e#119092#119382#0" />
+                <element signature="e#119092#122305#0" />
+                <element signature="e#122315#122676#0" />
+                <element signature="e#122315#124613#0" />
+                <element signature="e#124625#126320#0" />
+                <element signature="e#124625#135778#0" />
+                <element signature="e#126679#126723#0" />
+                <element signature="e#126755#126824#0" />
+                <element signature="e#126859#126924#0" />
+                <element signature="e#126960#126995#0" />
+                <element signature="e#127029#127062#0" />
+                <element signature="e#127094#127174#0" />
+                <element signature="e#127094#127378#0" />
+                <element signature="e#127388#127678#0" />
+                <element signature="e#127388#127904#0" />
+                <element signature="e#127914#128194#0" />
+                <element signature="e#127914#129775#0" />
+                <element signature="e#129785#130085#0" />
+                <element signature="e#129785#130930#0" />
+                <element signature="e#130940#131146#0" />
+                <element signature="e#130940#132203#0" />
+                <element signature="e#132213#132538#0" />
+                <element signature="e#132213#132928#0" />
+                <element signature="e#132938#133148#0" />
+                <element signature="e#132938#133343#0" />
+                <element signature="e#133353#133598#0" />
+                <element signature="e#133353#133837#0" />
+                <element signature="e#133847#133908#0" />
+                <element signature="e#133847#134135#0" />
+                <element signature="e#134145#134218#0" />
+                <element signature="e#134284#134347#0" />
+                <element signature="e#134284#134899#0" />
+                <element signature="e#134909#134978#0" />
+                <element signature="e#134909#135772#0" />
+                <element signature="e#135113#135148#0" />
+                <element signature="e#135162#135476#0" />
+                <element signature="e#135490#135686#0" />
+                <element signature="e#135784#135863#0" />
+                <element signature="e#135784#136817#0" />
+                <element signature="e#136823#137050#0" />
+                <element signature="e#137171#137307#0" />
+                <element signature="initializer##1;class#ObjectInputStream#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1716/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1089">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding>
+                <element signature="method#main#0;class#Solution#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Singleton" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>internship</find>
+      <find>tmp</find>
+      <find>i</find>
+      <find>low</find>
+      <find>ine</find>
+      <find>$</find>
+      <find>run</find>
+      <find>closeab</find>
+      <find>close</find>
+      <find>set</find>
+      <find>toArr</find>
+      <find>reta</find>
+      <find>containsA</find>
+      <find>lastIn</find>
+      <find>sta</find>
+      <find>sync</find>
+      <find>sy</find>
+      <find>synchronized</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Woman</replace>
+      <replace>min</replace>
+      <replace>j</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="D:/giflib-hibernate" value="2933508518815" />
+        <entry key="D:/todotoday" value="1466755205829" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1612/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1613/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1614/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1615/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1608/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1616/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1618/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1617/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1619/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1621/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1620/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1622/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1623/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1624/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1625/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1626/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1627/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1628/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1629/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1630/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1631/common/JpgReader.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1631/common/BmpReader.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1631/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1631/common/pngReader.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1631/ImageReaderFactory.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1632/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1633/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1701/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1702/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1703/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1704/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1705/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1706/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1706/OurPresident.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1707/IMF.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1707/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1709/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1708/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1710/Sex.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1710/Person.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1710/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1711/Person.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1711/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1712/Restaurant.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1712/Manager.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1713/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1714/Beach.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1715/DrugsController.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1715/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1716/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1717/Solution.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="960" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="1.JavaSyntax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="1.JavaSyntax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="1.JavaSyntax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="1.JavaSyntax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="1.JavaSyntax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task09" type="462c0819:PsiDirectoryNode" />
+              <item name="task0929" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="1.JavaSyntax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="1.JavaSyntax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task10" type="462c0819:PsiDirectoryNode" />
+              <item name="task1020" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task14" type="462c0819:PsiDirectoryNode" />
+              <item name="task1421" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task16" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task16" type="462c0819:PsiDirectoryNode" />
+              <item name="task1633" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task17" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task17" type="462c0819:PsiDirectoryNode" />
+              <item name="task1707" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task17" type="462c0819:PsiDirectoryNode" />
+              <item name="task1712" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task17" type="462c0819:PsiDirectoryNode" />
+              <item name="task1714" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task17" type="462c0819:PsiDirectoryNode" />
+              <item name="task1715" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task17" type="462c0819:PsiDirectoryNode" />
+              <item name="task1716" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="2.JavaCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task17" type="462c0819:PsiDirectoryNode" />
+              <item name="task1717" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jdk1.8.0_112" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jdk1.8.0_112" type="462c0819:PsiDirectoryNode" />
+              <item name="jre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jdk1.8.0_112" type="462c0819:PsiDirectoryNode" />
+              <item name="jre" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jdk1.8.0_112" type="462c0819:PsiDirectoryNode" />
+              <item name="jre" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="rt.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jdk1.8.0_112" type="462c0819:PsiDirectoryNode" />
+              <item name="jre" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="rt.jar" type="ab9368bb:PsiFileNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jdk1.8.0_112" type="462c0819:PsiDirectoryNode" />
+              <item name="jre" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="rt.jar" type="ab9368bb:PsiFileNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/MFTI_algs" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.20846905" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javarush.task.task16.task1631" />
+      <recent name="com.javarush.task.task16.task1601" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\User\Рабочий стол\JavaRush\Levels\JavaRushTasks\1.JavaSyntax\src\com\javarush\task\task05\task0508" />
+      <recent name="D:\intellijSandbox\JavaRushTasks" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javarush.task.task16.task1631.common" />
+      <recent name="com.javarush.task.task15.task1527" />
+      <recent name="com.javarush.task.task08.task0812" />
+      <recent name="com.javarush.task.task07.task0722" />
+      <recent name="com.javarush.task.task07.task0713" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\User\Рабочий стол\JavaRush\Levels\JavaRushTasks\2.JavaCore\src\com\javarush\task\task15\task1512" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Solution (4)">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Beach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task17.task1714.Beach" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task17.task1714.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task17.task1712.Restaurant" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task17.task1712.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task17.task1709.Solution" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task17.task1709.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task17.task1708.Solution" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task17.task1708.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task17.task1715.Solution" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task17.task1715.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task17.task1710.Solution" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task17.task1710.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task17.task1711.Solution" />
+      <module name="2.JavaCore" />
+      <option name="PROGRAM_PARAMETERS" value="-i 0 1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task17.task1711.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution_test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task10.task1020.Solution" />
+      <module name="1.JavaSyntax" />
+      <option name="PROGRAM_PARAMETERS" value="-i 1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task10.task1020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="JavaRushTasks" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Solution_test" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Restaurant" />
+      <item itemvalue="Application.Beach" />
+      <item itemvalue="Application.Solution (4)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Beach" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Restaurant" />
+        <item itemvalue="Application.Solution (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="" />
+      <created>1477641354970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1477641354970</updated>
+      <workItem from="1477641356271" duration="140000" />
+      <workItem from="1477661127283" duration="4000" />
+      <workItem from="1479892128348" duration="345000" />
+      <workItem from="1480667976301" duration="11000" />
+      <workItem from="1480667993737" duration="5000" />
+      <workItem from="1484838281338" duration="128000" />
+      <workItem from="1484897111171" duration="42000" />
+      <workItem from="1485161981498" duration="29000" />
+      <workItem from="1485162014696" duration="83000" />
+      <workItem from="1485177835943" duration="100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="887000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="1942" height="1102" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32887402" />
+      <window_info id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3189189" side_tool="true" weight="0.27090302" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32972974" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68108106" weight="0.38238573" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49351352" weight="0.32887402" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19027027" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24972972" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24972972" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.78162163" weight="0.17948718" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49135137" weight="0.32887402" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32963374" />
+      <window_info id="Nl-Palette" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task08/task0830/Solution.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task10/task1009/Solution.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1702/Solution.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Arrays.java</url>
+          <line>1905</line>
+          <properties class="java.util.Arrays" method="binarySearch0">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1633/Solution.java</url>
+          <line>53</line>
+          <properties class="com.javarush.task.task16.task1633.Solution.TestedThread" method="run">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1702/Solution.java</url>
+          <line>54</line>
+          <properties class="com.javarush.task.task17.task1702.Solution" method="sort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="143" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1710/Sex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="365" selection-start-line="365" selection-end-line="365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaRushPlugin.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1710/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1711/Sex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1710/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1711/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1711/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1711/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1712/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1712/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1712/Cook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1712/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1712/Dishes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1712/Waiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1706/OurPresident.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1707/IMF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1712/Restaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1712/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1713/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task09/task0930/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-465">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="624" column="47" selection-start-line="624" selection-start-column="37" selection-end-line="624" selection-end-column="47" />
+          <folding>
+            <element signature="docComment;class#List#0" />
+            <element signature="docComment;method#size#0;class#List#0" />
+            <element signature="docComment;method#isEmpty#0;class#List#0" />
+            <element signature="docComment;method#contains#0;class#List#0" />
+            <element signature="docComment;method#iterator#0;class#List#0" />
+            <element signature="docComment;method#toArray#0;class#List#0" />
+            <element signature="docComment;method#add#0;class#List#0" />
+            <element signature="docComment;method#remove#0;class#List#0" />
+            <element signature="docComment;method#containsAll#0;class#List#0" />
+            <element signature="docComment;method#addAll#0;class#List#0" />
+            <element signature="docComment;method#addAll#1;class#List#0" />
+            <element signature="docComment;method#removeAll#0;class#List#0" />
+            <element signature="docComment;method#retainAll#0;class#List#0" />
+            <element signature="docComment;method#replaceAll#0;class#List#0" />
+            <element signature="method#replaceAll#0;class#List#0" />
+            <element signature="docComment;method#sort#0;class#List#0" />
+            <element signature="method#sort#0;class#List#0" />
+            <element signature="docComment;method#clear#0;class#List#0" />
+            <element signature="docComment;method#equals#0;class#List#0" />
+            <element signature="docComment;method#hashCode#0;class#List#0" />
+            <element signature="docComment;method#get#0;class#List#0" />
+            <element signature="docComment;method#set#0;class#List#0" />
+            <element signature="docComment;method#add#1;class#List#0" />
+            <element signature="docComment;method#remove#1;class#List#0" />
+            <element signature="docComment;method#indexOf#0;class#List#0" />
+            <element signature="docComment;method#listIterator#0;class#List#0" />
+            <element signature="docComment;method#listIterator#1;class#List#0" />
+            <element signature="docComment;method#subList#0;class#List#0" />
+            <element signature="docComment;method#spliterator#0;class#List#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1713/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1613/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1709/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1708/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1419">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1707/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1705/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" column="16" lean-forward="true" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1704/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1703/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1702/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="initializer##0;class#Solution#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1701/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1633/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task09/task0929/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task09/task0929/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1714/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1714/Beach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="64" column="58" lean-forward="true" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1715/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11121">
+          <caret line="460" column="37" lean-forward="true" selection-start-line="460" selection-start-column="37" selection-end-line="460" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1715/Drug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1715/DrugsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1715/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1716/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/ObjectStreamField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1287">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+          <folding>
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5643">
+          <caret line="1078" column="39" selection-start-line="1078" selection-start-column="29" selection-end-line="1078" selection-end-column="39" />
+          <folding>
+            <element signature="docComment;class#ObjectInputStream#0" />
+            <element signature="e#9822#9859#0" />
+            <element signature="e#9912#9971#0" />
+            <element signature="e#10040#10112#0" />
+            <element signature="initializer##0;class#ObjectInputStream#0" />
+            <element signature="e#10651#11022#0" />
+            <element signature="e#10689#10736#0" />
+            <element signature="e#10859#10912#0" />
+            <element signature="e#11028#11083#0" />
+            <element signature="e#11132#11163#0" />
+            <element signature="e#11208#11230#0" />
+            <element signature="e#11258#11289#0" />
+            <element signature="e#11323#11362#0" />
+            <element signature="e#11406#11471#0" />
+            <element signature="e#11518#11590#0" />
+            <element signature="e#11640#11688#0" />
+            <element signature="e#11723#11790#0" />
+            <element signature="e#11837#11875#0" />
+            <element signature="e#11916#12124#0" />
+            <element signature="e#12176#13365#0" />
+            <element signature="e#12176#13680#0" />
+            <element signature="e#13686#14524#0" />
+            <element signature="e#13686#14863#0" />
+            <element signature="e#14869#16552#0" />
+            <element signature="e#14869#17365#0" />
+            <element signature="e#17371#18100#0" />
+            <element signature="e#17371#18226#0" />
+            <element signature="e#18232#20851#0" />
+            <element signature="e#18232#21565#0" />
+            <element signature="e#21571#22112#0" />
+            <element signature="e#21571#23037#0" />
+            <element signature="e#23043#23566#0" />
+            <element signature="e#23043#24447#0" />
+            <element signature="e#24453#25388#0" />
+            <element signature="e#24453#25662#0" />
+            <element signature="e#25668#28017#0" />
+            <element signature="e#25668#28489#0" />
+            <element signature="e#28495#31295#0" />
+            <element signature="e#28495#32645#0" />
+            <element signature="e#32651#34074#0" />
+            <element signature="e#32651#34168#0" />
+            <element signature="e#34174#35248#0" />
+            <element signature="e#34174#35689#0" />
+            <element signature="e#35695#36135#0" />
+            <element signature="e#35695#36501#0" />
+            <element signature="e#36507#37479#0" />
+            <element signature="e#36507#37708#0" />
+            <element signature="e#37714#37942#0" />
+            <element signature="e#37714#38018#0" />
+            <element signature="e#38024#38629#0" />
+            <element signature="e#38024#39000#0" />
+            <element signature="e#39006#39268#0" />
+            <element signature="e#39006#39354#0" />
+            <element signature="e#39360#39543#0" />
+            <element signature="e#39360#39868#0" />
+            <element signature="e#39874#40070#0" />
+            <element signature="e#39874#40164#0" />
+            <element signature="e#40170#40370#0" />
+            <element signature="e#40170#40456#0" />
+            <element signature="e#40462#40671#0" />
+            <element signature="e#40462#40772#0" />
+            <element signature="e#40778#40979#0" />
+            <element signature="e#40778#41065#0" />
+            <element signature="e#41071#41274#0" />
+            <element signature="e#41071#41363#0" />
+            <element signature="e#41369#41582#0" />
+            <element signature="e#41369#41684#0" />
+            <element signature="e#41690#41893#0" />
+            <element signature="e#41690#41976#0" />
+            <element signature="e#41982#42183#0" />
+            <element signature="e#41982#42269#0" />
+            <element signature="e#42275#42478#0" />
+            <element signature="e#42275#42566#0" />
+            <element signature="e#42572#42777#0" />
+            <element signature="e#42572#42868#0" />
+            <element signature="e#42874#43123#0" />
+            <element signature="e#42874#43238#0" />
+            <element signature="e#43244#43598#0" />
+            <element signature="e#43244#43890#0" />
+            <element signature="e#43896#44098#0" />
+            <element signature="e#43896#44194#0" />
+            <element signature="e#44200#44610#0" />
+            <element signature="e#44200#44713#0" />
+            <element signature="e#44719#45128#0" />
+            <element signature="e#44719#45213#0" />
+            <element signature="e#45359#45543#0" />
+            <element signature="e#45619#46120#0" />
+            <element signature="e#46205#46814#0" />
+            <element signature="e#46918#47521#0" />
+            <element signature="e#47607#48210#0" />
+            <element signature="e#48296#48901#0" />
+            <element signature="e#48989#49590#0" />
+            <element signature="e#49674#50277#0" />
+            <element signature="e#50363#50968#0" />
+            <element signature="e#51056#51663#0" />
+            <element signature="e#51753#52360#0" />
+            <element signature="e#52452#52745#0" />
+            <element signature="e#52452#53505#0" />
+            <element signature="e#53511#53715#0" />
+            <element signature="e#53511#54774#0" />
+            <element signature="class#53853:54719" />
+            <element signature="method#run#0;class#53853:54719" />
+            <element signature="e#54780#54831#0" />
+            <element signature="e#54780#54912#0" />
+            <element signature="e#54918#54974#0" />
+            <element signature="e#54918#57975#0" />
+            <element signature="e#57981#58397#0" />
+            <element signature="e#57981#58724#0" />
+            <element signature="e#58730#58860#0" />
+            <element signature="e#58730#59546#0" />
+            <element signature="e#59552#59639#0" />
+            <element signature="e#59552#59841#0" />
+            <element signature="e#59847#59979#0" />
+            <element signature="e#59847#60925#0" />
+            <element signature="e#60931#61200#0" />
+            <element signature="e#60931#61759#0" />
+            <element signature="e#61765#62058#0" />
+            <element signature="e#61765#62977#0" />
+            <element signature="e#62983#63212#0" />
+            <element signature="e#63218#63527#0" />
+            <element signature="e#63218#65114#0" />
+            <element signature="e#64484#64535#0" />
+            <element signature="e#65120#65437#0" />
+            <element signature="e#65120#66786#0" />
+            <element signature="e#66792#66900#0" />
+            <element signature="e#66792#67513#0" />
+            <element signature="e#67519#67664#0" />
+            <element signature="e#67519#69760#0" />
+            <element signature="e#69766#69918#0" />
+            <element signature="e#69766#71230#0" />
+            <element signature="e#71236#71561#0" />
+            <element signature="e#71236#73251#0" />
+            <element signature="e#73257#73515#0" />
+            <element signature="e#73257#75545#0" />
+            <element signature="e#75551#75847#0" />
+            <element signature="e#75551#78970#0" />
+            <element signature="e#78976#79077#0" />
+            <element signature="e#78976#79782#0" />
+            <element signature="e#79788#80020#0" />
+            <element signature="e#79788#81292#0" />
+            <element signature="e#81298#81512#0" />
+            <element signature="e#81298#81745#0" />
+            <element signature="e#81751#81951#0" />
+            <element signature="e#81751#82186#0" />
+            <element signature="e#82192#82262#0" />
+            <element signature="e#82530#82601#0" />
+            <element signature="e#82877#83397#0" />
+            <element signature="e#83522#83573#0" />
+            <element signature="e#83522#88345#0" />
+            <element signature="e#83633#83687#0" />
+            <element signature="e#83742#83771#0" />
+            <element signature="e#83819#83845#0" />
+            <element signature="e#83894#83927#0" />
+            <element signature="e#83977#84096#0" />
+            <element signature="e#83977#84348#0" />
+            <element signature="e#84452#84573#0" />
+            <element signature="e#84583#84786#0" />
+            <element signature="e#84796#84973#0" />
+            <element signature="e#84983#85179#0" />
+            <element signature="e#85189#85384#0" />
+            <element signature="e#85394#85585#0" />
+            <element signature="e#85595#85790#0" />
+            <element signature="e#85800#85991#0" />
+            <element signature="e#86001#86200#0" />
+            <element signature="e#86210#86655#0" />
+            <element signature="e#86665#86744#0" />
+            <element signature="e#86665#87285#0" />
+            <element signature="e#87295#87836#0" />
+            <element signature="e#87295#88339#0" />
+            <element signature="e#88351#88474#0" />
+            <element signature="e#88351#91249#0" />
+            <element signature="e#88526#89003#0" />
+            <element signature="e#88719#88993#0" />
+            <element signature="e#89013#89044#0" />
+            <element signature="e#89085#89147#0" />
+            <element signature="e#89085#89184#0" />
+            <element signature="e#89194#89310#0" />
+            <element signature="e#89194#89996#0" />
+            <element signature="e#90006#90378#0" />
+            <element signature="e#90006#91087#0" />
+            <element signature="class#90574:90847" />
+            <element signature="method#run#0;class#90574:90847" />
+            <element signature="e#91097#91178#0" />
+            <element signature="e#91255#91326#0" />
+            <element signature="e#91255#93503#0" />
+            <element signature="e#91399#91423#0" />
+            <element signature="e#91470#91488#0" />
+            <element signature="e#91530#91619#0" />
+            <element signature="e#91707#91848#0" />
+            <element signature="e#91707#91961#0" />
+            <element signature="e#91971#92203#0" />
+            <element signature="e#92213#92642#0" />
+            <element signature="e#92652#92972#0" />
+            <element signature="e#92982#93290#0" />
+            <element signature="e#93300#93413#0" />
+            <element signature="e#93423#93497#0" />
+            <element signature="e#93509#93977#0" />
+            <element signature="e#93509#124619#0" />
+            <element signature="e#94080#94112#0" />
+            <element signature="e#94177#94216#0" />
+            <element signature="e#94279#94339#0" />
+            <element signature="e#94402#94472#0" />
+            <element signature="e#94536#94580#0" />
+            <element signature="e#94650#94694#0" />
+            <element signature="e#94766#94806#0" />
+            <element signature="e#94877#94899#0" />
+            <element signature="e#95027#95057#0" />
+            <element signature="e#95095#95162#0" />
+            <element signature="e#95201#95267#0" />
+            <element signature="e#95309#95369#0" />
+            <element signature="e#95420#95481#0" />
+            <element signature="e#95534#95681#0" />
+            <element signature="e#95534#95830#0" />
+            <element signature="e#95840#96221#0" />
+            <element signature="e#95840#96671#0" />
+            <element signature="e#96681#96795#0" />
+            <element signature="e#96880#97103#0" />
+            <element signature="e#96880#97351#0" />
+            <element signature="e#97361#97729#0" />
+            <element signature="e#97361#100483#0" />
+            <element signature="e#100493#100857#0" />
+            <element signature="e#100493#102003#0" />
+            <element signature="e#102013#102221#0" />
+            <element signature="e#102013#102444#0" />
+            <element signature="e#102454#102665#0" />
+            <element signature="e#102454#102953#0" />
+            <element signature="e#102963#103159#0" />
+            <element signature="e#102963#103358#0" />
+            <element signature="e#103718#104006#0" />
+            <element signature="e#104016#104135#0" />
+            <element signature="e#104145#104933#0" />
+            <element signature="e#104943#105967#0" />
+            <element signature="e#105977#106171#0" />
+            <element signature="e#106181#106524#0" />
+            <element signature="e#106181#107366#0" />
+            <element signature="e#107729#107837#0" />
+            <element signature="e#107847#107970#0" />
+            <element signature="e#107980#108332#0" />
+            <element signature="e#108342#108437#0" />
+            <element signature="e#108447#108644#0" />
+            <element signature="e#108654#108845#0" />
+            <element signature="e#108855#109046#0" />
+            <element signature="e#109056#109385#0" />
+            <element signature="e#109395#109729#0" />
+            <element signature="e#109739#110094#0" />
+            <element signature="e#110104#110428#0" />
+            <element signature="e#110438#110772#0" />
+            <element signature="e#110782#111111#0" />
+            <element signature="e#111121#111460#0" />
+            <element signature="e#111470#111577#0" />
+            <element signature="e#111587#111759#0" />
+            <element signature="e#112151#112885#0" />
+            <element signature="e#112895#113664#0" />
+            <element signature="e#113674#114447#0" />
+            <element signature="e#114457#115222#0" />
+            <element signature="e#115232#115939#0" />
+            <element signature="e#115949#116718#0" />
+            <element signature="e#116728#117439#0" />
+            <element signature="e#117449#117698#0" />
+            <element signature="e#117449#117802#0" />
+            <element signature="e#117812#118009#0" />
+            <element signature="e#117812#119082#0" />
+            <element signature="e#119092#119382#0" />
+            <element signature="e#119092#122305#0" />
+            <element signature="e#122315#122676#0" />
+            <element signature="e#122315#124613#0" />
+            <element signature="e#124625#126320#0" />
+            <element signature="e#124625#135778#0" />
+            <element signature="e#126679#126723#0" />
+            <element signature="e#126755#126824#0" />
+            <element signature="e#126859#126924#0" />
+            <element signature="e#126960#126995#0" />
+            <element signature="e#127029#127062#0" />
+            <element signature="e#127094#127174#0" />
+            <element signature="e#127094#127378#0" />
+            <element signature="e#127388#127678#0" />
+            <element signature="e#127388#127904#0" />
+            <element signature="e#127914#128194#0" />
+            <element signature="e#127914#129775#0" />
+            <element signature="e#129785#130085#0" />
+            <element signature="e#129785#130930#0" />
+            <element signature="e#130940#131146#0" />
+            <element signature="e#130940#132203#0" />
+            <element signature="e#132213#132538#0" />
+            <element signature="e#132213#132928#0" />
+            <element signature="e#132938#133148#0" />
+            <element signature="e#132938#133343#0" />
+            <element signature="e#133353#133598#0" />
+            <element signature="e#133353#133837#0" />
+            <element signature="e#133847#133908#0" />
+            <element signature="e#133847#134135#0" />
+            <element signature="e#134145#134218#0" />
+            <element signature="e#134284#134347#0" />
+            <element signature="e#134284#134899#0" />
+            <element signature="e#134909#134978#0" />
+            <element signature="e#134909#135772#0" />
+            <element signature="e#135113#135148#0" />
+            <element signature="e#135162#135476#0" />
+            <element signature="e#135490#135686#0" />
+            <element signature="e#135784#135863#0" />
+            <element signature="e#135784#136817#0" />
+            <element signature="e#136823#137050#0" />
+            <element signature="e#137171#137307#0" />
+            <element signature="initializer##1;class#ObjectInputStream#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1717/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1716/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="method#main#0;class#Solution#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1717/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="method#main#0;class#Solution#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="459" column="13" selection-start-line="459" selection-start-column="13" selection-end-line="459" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>2.JavaCore</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
