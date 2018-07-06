@@ -4,7 +4,8 @@ package com.javarush.task.task17.task1718;
 Глажка
 Глажка
 И снова быт...
-Поставьте один synchronized, чтобы diana и igor гладили по очереди, ведь утюг всего один!
+Поставьте один synchronized,
+чтобы diana и igor гладили по очереди, ведь утюг всего один!
 
 Подсказка:
 использовать блокировку на уровне класса.
@@ -17,6 +18,14 @@ package com.javarush.task.task17.task1718;
 4. Класс Person должен быть нитью.
 5. В методе run() класса Person должен быть synchronized блок.
 6. Synchronized блок должен использовать блокировку на уровне класса.
+
+Да потому что это же ООП и это нелогично блин:
+у тебя есть 1 утюг, и есть 2 Person.
+Блокируя весь класс Person.class ты нецелесообразно
+запрещаешь второму Person не занятому глажкой,
+пойти борщ сварить или в гараж, или что там ещё другая нить
+может делать пока Утюг занят.
+Занимаешь Утюг? блокируй утюг, а не что попало.
 */
 public class Solution {
     public static void main(String[] args) {
@@ -33,14 +42,20 @@ public class Solution {
         }
 
         @Override
-        public void run() {
-            Iron iron = takeIron();
-            Clothes clothes = takeClothes();
-            ironing(iron, clothes);
-            returnIron();
+        public synchronized void run() {
+            System.out.println(Thread.currentThread().getName() + " in run");
+            synchronized (Iron.class) {
+                System.out.println(Thread.currentThread().getName() + " in synch");
+                Iron iron = takeIron();
+                Clothes clothes = takeClothes();
+                ironing(iron, clothes);
+                returnIron();
+                System.out.println(Thread.currentThread().getName() + " out of synch");
+            }
+            System.out.println(Thread.currentThread().getName() + " out of run");
         }
 
-        protected Iron takeIron() {
+        protected  Iron takeIron() {
             System.out.println("Taking an Iron");
             return new Iron();
         }
@@ -60,6 +75,17 @@ public class Solution {
     }
 
     public static class Iron {
+       /* private static Iron instance;
+
+        private Iron() {
+           // getInstance();
+        }
+
+        public synchronized static Iron getInstance() {
+            if (instance == null)
+                instance = new Iron();
+            return instance;
+        }*/
     } //Утюг
 
     public static class Clothes {//Одежда
