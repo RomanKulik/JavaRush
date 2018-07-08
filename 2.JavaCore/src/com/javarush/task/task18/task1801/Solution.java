@@ -1,5 +1,7 @@
 package com.javarush.task.task18.task1801;
 
+import sun.misc.IOUtils;
+
 import java.io.*;
 import java.util.*;
 
@@ -19,20 +21,42 @@ import java.util.*;
 */
 public class Solution {
     public static void main(String[] args) throws Exception {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String fileName = reader.readLine();
-        FileInputStream in = new FileInputStream(fileName);
-        System.out.println(maxByte(in));
-
+        BufferedReader reader = null;
+        InputStream in = null;
+        try {
+            reader = new BufferedReader(new InputStreamReader(System.in));
+            String fileName = reader.readLine();
+            in = new FileInputStream(fileName);
+            System.out.println(maxByte(in));
+        } catch (IOException igore) {
+        } finally {
+            closeQuietly(reader);
+            closeQuietly(in);
+        }
     }
 
-    static Integer maxByte(FileInputStream in) throws IOException {
-       Set<Integer> byteSet = new TreeSet<>();
-       while (in.available() > 0) {
-           byteSet.add(in.read());
-       }
-       in.close();
-       return Collections.max(byteSet);
+    static Integer maxByte(InputStream in) throws IOException {
+        Set<Integer> byteSet = new TreeSet<>();
+        while (in.available() > 0) {
+            byteSet.add(in.read());
+        }
+        //return Collections.max(byteSet);
+        // или
+        return ((TreeSet<Integer>) byteSet).last();
+    }
+
+    public static void closeQuietly(Object input) {
+        try {
+            if (input != null) {
+                if (input instanceof InputStream) {
+                    ((InputStream) input).close();
+                } else if (input instanceof Reader) {
+                    ((Reader) input).close();
+                }
+            }
+        } catch (IOException ioe) {
+            // ignore
+        }
     }
 }
 /*public class Solution {
