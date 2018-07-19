@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Solution_short {
-    public volatile static Map<String, Integer> resultMap = new HashMap<String, Integer>();
+    public static Map<String, Integer> resultMap = new HashMap<String, Integer>();
 
     public static void main(String[] args) throws IOException, InterruptedException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
