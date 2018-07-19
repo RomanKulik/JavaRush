@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1823/Solution_short.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1823/Solution_short.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1823/Solution_short.java" afterDir="false" />
     </list>
     <ignored path="JavaRushTasks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,20 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1823/Solution.java">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1824/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_short.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1823/Solution_short.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="183">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,35 +40,8 @@
           <provider selected="true" editor-type-id="EditorTypeId" />
         </entry>
       </file>
-      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/FileInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="300" column="22" selection-start-line="300" selection-start-column="22" selection-end-line="300" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ByteArrayInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/ByteArrayInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Условие.jrtc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1823/Условие.jrtc">
+        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1824/Условие.jrtc">
           <provider selected="true" editor-type-id="EditorTypeId" />
         </entry>
       </file>
@@ -139,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1706/OurPresident.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1707/IMF.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1709/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1708/Solution.java" />
@@ -190,6 +152,7 @@
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1822/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1823/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1823/Solution_short.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1824/Solution.java" />
       </list>
     </option>
   </component>
@@ -295,6 +258,14 @@
               <item name="com.javarush.task" type="1f31426a:PackageElementNode" />
               <item name="task18" type="1f31426a:PackageElementNode" />
               <item name="task1823" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="2.JavaCore" type="616d4139:PackageViewModuleNode" />
+              <item name="com.javarush.task" type="1f31426a:PackageElementNode" />
+              <item name="task18" type="1f31426a:PackageElementNode" />
+              <item name="task1824" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -582,7 +553,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -597,13 +568,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task18.task1819.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task18.task1824.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task18.task1819.*" />
+          <option name="PATTERN" value="com.javarush.task.task18.task1824.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -939,19 +910,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution_test" />
-      <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (6)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution3" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (6)" />
-        <item itemvalue="Application.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -1004,11 +975,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3189189" side_tool="true" weight="0.27090302" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68108106" weight="0.2785235" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.68108106" visible="true" weight="0.2785235" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49351352" weight="0.32887402" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19621621" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19621621" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24972972" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972972" />
       <window_info id="UI Designer" order="3" />
@@ -1130,20 +1101,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1808/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1809/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1811/Условие.jrtc">
       <provider selected="true" editor-type-id="EditorTypeId" />
     </entry>
@@ -2159,9 +2116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
-      <provider selected="true" editor-type-id="EditorTypeId" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1823/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -2171,8 +2125,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1823/Solution_short.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="663">
+          <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1824/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1824/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
