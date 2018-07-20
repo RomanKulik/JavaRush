@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="" />
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task18/task1825/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task18/task1825/Solution.class" afterDir="false" />
+    </list>
     <ignored path="JavaRushTasks.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,12 +25,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1825/Solution.java">
+        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1826/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="-429">
+              <caret line="37" column="56" lean-forward="true" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#encryption#0;class#Solution#0" />
+                <element signature="method#decryption#0;class#Solution#0" />
+                <element signature="method#getBytesArrayFromList#0;class#Solution#0" />
+                <element signature="method#getByteListFromFile#0;class#Solution#0" />
               </folding>
             </state>
           </provider>
@@ -38,42 +45,14 @@
           <provider selected="true" editor-type-id="EditorTypeId" />
         </entry>
       </file>
-      <file leaf-file-name="TreeSet.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/TreeSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
-              <folding>
-                <element signature="e#4697#4698#0" expanded="true" />
-                <element signature="e#4742#4743#0" expanded="true" />
-                <element signature="e#15084#15085#0" expanded="true" />
-                <element signature="e#15119#15120#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortedMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/SortedMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="215" column="6" selection-start-line="215" selection-start-column="6" selection-end-line="215" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Условие.jrtc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1825/Условие.jrtc">
+      <file leaf-file-name="Компиляция" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/Компиляция">
           <provider selected="true" editor-type-id="EditorTypeId" />
         </entry>
       </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-            </state>
-          </provider>
+      <file leaf-file-name="Условие.jrtc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1826/Условие.jrtc">
+          <provider selected="true" editor-type-id="EditorTypeId" />
         </entry>
       </file>
     </leaf>
@@ -133,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1709/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1708/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1710/Sex.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1710/Person.java" />
@@ -184,6 +162,7 @@
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1824/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1823/Solution_short.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1825/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1826/Solution.java" />
       </list>
     </option>
   </component>
@@ -210,99 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="java" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="java" type="1f31426a:PackageElementNode" />
-              <item name="io" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="java" type="1f31426a:PackageElementNode" />
-              <item name="lang" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="java" type="1f31426a:PackageElementNode" />
-              <item name="util" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="java" type="1f31426a:PackageElementNode" />
-              <item name="util" type="1f31426a:PackageElementNode" />
-              <item name="stream" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="2" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="2" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="2.JavaCore" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="2" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="2.JavaCore" type="616d4139:PackageViewModuleNode" />
-              <item name="com.javarush.task" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="2" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="2.JavaCore" type="616d4139:PackageViewModuleNode" />
-              <item name="com.javarush.task" type="1f31426a:PackageElementNode" />
-              <item name="task18" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
-              <item name="2" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="2.JavaCore" type="616d4139:PackageViewModuleNode" />
-              <item name="com.javarush.task" type="1f31426a:PackageElementNode" />
-              <item name="task18" type="1f31426a:PackageElementNode" />
-              <item name="task1825" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -535,6 +421,99 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="java" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="java" type="1f31426a:PackageElementNode" />
+              <item name="io" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="java" type="1f31426a:PackageElementNode" />
+              <item name="lang" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="java" type="1f31426a:PackageElementNode" />
+              <item name="util" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="1" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="1.JavaSyntax" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="java" type="1f31426a:PackageElementNode" />
+              <item name="util" type="1f31426a:PackageElementNode" />
+              <item name="stream" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="2.JavaCore" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="2.JavaCore" type="616d4139:PackageViewModuleNode" />
+              <item name="com.javarush.task" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="2.JavaCore" type="616d4139:PackageViewModuleNode" />
+              <item name="com.javarush.task" type="1f31426a:PackageElementNode" />
+              <item name="task18" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="2.JavaCore" type="616d4139:PackageViewModuleNode" />
+              <item name="com.javarush.task" type="1f31426a:PackageElementNode" />
+              <item name="task18" type="1f31426a:PackageElementNode" />
+              <item name="task1826" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -584,20 +563,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution4">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task18.task1821.Solution" />
-      <module name="2.JavaCore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task18.task1821.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task18.task1824.Solution" />
@@ -640,6 +608,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task18.task1822.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution4" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task18.task1826.Solution" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task18.task1826.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -941,19 +920,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution_test" />
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution3" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution4" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution3" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1006,11 +984,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3189189" side_tool="true" weight="0.27090302" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68108106" weight="0.2785235" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.68108106" visible="true" weight="0.2785235" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49351352" weight="0.32887402" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19621621" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19945946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24972972" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972972" />
       <window_info id="UI Designer" order="3" />
@@ -1045,18 +1023,18 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3189189" side_tool="true" weight="0.27090302" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49135137" weight="0.32885906" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19351351" />
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
       <window_info id="Nl-Palette" order="5" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.32972974" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19351351" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32887402" />
       <window_info id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24972972" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.78162163" weight="0.17948718" />
     </layout-to-restore>
@@ -1132,16 +1110,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1811/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1813/Условие.jrtc">
-      <provider selected="true" editor-type-id="EditorTypeId" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/FileOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
@@ -1266,9 +1234,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1820/Условие.jrtc">
-      <provider selected="true" editor-type-id="EditorTypeId" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Компиляция">
       <provider selected="true" editor-type-id="EditorTypeId" />
     </entry>
     <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1820/Solution.java">
@@ -2030,10 +1995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1881">
           <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
-          <folding>
-            <element signature="e#2084#2085#0" expanded="true" />
-            <element signature="e#2130#2131#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2048,10 +2009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11814">
           <caret line="388" column="31" selection-start-line="388" selection-start-column="31" selection-end-line="388" selection-end-column="31" />
-          <folding>
-            <element signature="e#3011#3012#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2066,9 +2023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-858">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2086,13 +2040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4154#4155#0" expanded="true" />
-            <element signature="e#4187#4188#0" expanded="true" />
-            <element signature="e#4222#4223#0" expanded="true" />
-            <element signature="e#4257#4258#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2124,9 +2071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2144,9 +2088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2171,24 +2112,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
-          <folding>
-            <element signature="e#4697#4698#0" expanded="true" />
-            <element signature="e#4742#4743#0" expanded="true" />
-            <element signature="e#15084#15085#0" expanded="true" />
-            <element signature="e#15119#15120#0" expanded="true" />
-          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1825/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1826/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Компиляция">
+      <provider selected="true" editor-type-id="EditorTypeId" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
       <provider selected="true" editor-type-id="EditorTypeId" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1825/Solution.java">
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1826/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        <state relative-caret-position="-429">
+          <caret line="37" column="56" lean-forward="true" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#encryption#0;class#Solution#0" />
+            <element signature="method#decryption#0;class#Solution#0" />
+            <element signature="method#getBytesArrayFromList#0;class#Solution#0" />
+            <element signature="method#getByteListFromFile#0;class#Solution#0" />
           </folding>
         </state>
       </provider>
