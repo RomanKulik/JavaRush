@@ -102,6 +102,7 @@ public class Solution {
         return nod((b - a) >> 1, a);
     }
 }
+
 /*public class Solution {
     public static void main(String[] args) throws Exception {
     }
