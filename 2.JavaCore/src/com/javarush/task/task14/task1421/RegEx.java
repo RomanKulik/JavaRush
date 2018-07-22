@@ -1,14 +1,9 @@
 package com.javarush.task.task14.task1421;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-class H {
+public class RegEx {
     public static void main(String[] args) {
         // https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
         // https://www.youtube.com/watch?v=WOYyYwNj7TU&index=1&list=PL786bPIlqEjQsE_WAcKpkZ-Q4T-A8j1D2
