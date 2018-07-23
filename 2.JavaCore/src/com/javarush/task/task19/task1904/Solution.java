@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -38,7 +39,7 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) throws IOException, ParseException {
-        //new PersonScannerAdapter(new Scanner(new FileInputStream("d:/1.txt"))).read();
+        new PersonScannerAdapter(new Scanner(new FileInputStream("d:/1.txt"),"UTF-8")).read();
     }
 
     public static class PersonScannerAdapter implements PersonScanner {
@@ -51,15 +52,23 @@ public class Solution {
         @Override
         public Person read() throws IOException, ParseException {
             //Иванов Иван Иванович 31 12 1950
-            String lastName = this.fileScanner.next();
+           /* String lastName = this.fileScanner.next();
             String firstName = this.fileScanner.next();
             String middleName = this.fileScanner.next();
             int day = this.fileScanner.nextInt();
             int month = this.fileScanner.nextInt();
             int year = this.fileScanner.nextInt();
             Date date = new SimpleDateFormat("dd/MM/yyyy").
-                    parse(String.format("%d/%d/%d", day, month, year));
-            return new Person(firstName, middleName, lastName, date);
+                    parse(String.format("%d/%d/%d", day, month, year));*/
+            String str = "";
+            if (this.fileScanner.hasNext())
+                str = this.fileScanner.nextLine();
+            System.out.println(str);
+            String[] strs = str.split("\\s");
+            System.out.println(Arrays.toString(strs));
+            Date date = new SimpleDateFormat("dd/MM/yyyy").
+                    parse(String.format("%s/%s/%s", strs[3], strs[4], strs[5]));
+            return new Person(strs[1], strs[2], strs[0], date);
         }
 
         @Override
