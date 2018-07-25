@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="" />
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1911/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1911/Условие.jrtc" beforeDir="false" />
+    </list>
     <ignored path="JavaRushTasks.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,191 +27,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1911/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="257" column="55" lean-forward="true" selection-start-line="257" selection-start-column="4" selection-end-line="257" selection-end-column="55" />
-              <folding>
-                <element signature="docComment;class#System#0" />
-                <element signature="initializer##0;class#System#0" />
-                <element signature="e#1822#1868#0" />
-                <element signature="e#1822#1897#0" />
-                <element signature="e#1903#2150#0" />
-                <element signature="e#2203#3286#0" />
-                <element signature="e#3340#3968#0" />
-                <element signature="e#4136#4829#0" />
-                <element signature="e#4136#4921#0" />
-                <element signature="e#4927#5613#0" />
-                <element signature="e#5715#6426#0" />
-                <element signature="e#5715#6522#0" />
-                <element signature="e#6577#6821#0" />
-                <element signature="e#6577#7063#0" />
-                <element signature="e#7069#8022#0" />
-                <element signature="e#7069#8157#0" />
-                <element signature="e#8163#8351#0" />
-                <element signature="e#8527#9565#0" />
-                <element signature="e#8527#9800#0" />
-                <element signature="e#9806#11197#0" />
-                <element signature="e#9979#10032#0" />
-                <element signature="e#10272#10332#0" />
-                <element signature="e#11203#11510#0" />
-                <element signature="e#11604#12319#0" />
-                <element signature="e#12376#14393#0" />
-                <element signature="e#14441#19378#0" />
-                <element signature="e#19569#19951#0" />
-                <element signature="e#20014#21040#0" />
-                <element signature="e#21155#25890#0" />
-                <element signature="e#21155#26093#0" />
-                <element signature="e#26099#26523#0" />
-                <element signature="e#26650#27627#0" />
-                <element signature="e#26650#27959#0" />
-                <element signature="e#27965#29250#0" />
-                <element signature="e#27965#29498#0" />
-                <element signature="e#29504#30756#0" />
-                <element signature="e#29504#31021#0" />
-                <element signature="e#31027#32420#0" />
-                <element signature="e#31027#32775#0" />
-                <element signature="e#32781#34056#0" />
-                <element signature="e#32781#34339#0" />
-                <element signature="e#34345#34605#0" />
-                <element signature="e#34611#37016#0" />
-                <element signature="e#34611#37276#0" />
-                <element signature="e#37283#39069#0" />
-                <element signature="e#37283#39332#0" />
-                <element signature="e#39338#40130#0" />
-                <element signature="e#40227#40888#0" />
-                <element signature="e#40965#41738#0" />
-                <element signature="e#41841#43002#0" />
-                <element signature="e#43134#44903#0" />
-                <element signature="e#45058#46677#0" />
-                <element signature="e#45058#46838#0" />
-                <element signature="e#46844#47336#0" />
-                <element signature="e#47406#47477#0" />
-                <element signature="e#47406#47838#0" />
-                <element signature="e#47845#47929#0" />
-                <element signature="e#47845#51298#0" />
-                <element signature="e#47989#48053#0" />
-                <element signature="e#48644#48712#0" />
-                <element signature="e#50077#50143#0" />
-                <element signature="e#50355#50427#0" />
-                <element signature="e#50678#50741#0" />
-                <element signature="e#50975#51038#0" />
-                <element signature="e#51304#53703#0" />
-                <element signature="class#51456:53695" />
-                <element signature="method#casAnnotationType#0;class#51456:53695" />
-                <element signature="method#getDeclaredAnnotationMap#0;class#51456:53695" />
-                <element signature="method#getRawExecutableTypeAnnotations#0;class#51456:53695" />
-                <element signature="method#registerShutdownHook#0;class#51456:53695" />
-                <element signature="method#newThreadWithAcc#0;class#51456:53695" />
-                <element signature="method#invokeFinalize#0;class#51456:53695" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/PrintStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-              <folding>
-                <element signature="docComment;class#PrintStream#0" />
-                <element signature="e#1971#2181#0" />
-                <element signature="e#1971#2350#0" />
-                <element signature="e#2356#2564#0" />
-                <element signature="e#2356#2979#0" />
-                <element signature="e#2985#3241#0" />
-                <element signature="e#3247#3498#0" />
-                <element signature="e#3504#3915#0" />
-                <element signature="e#3921#4204#0" />
-                <element signature="e#4246#4247#0" expanded="true" />
-                <element signature="e#4278#4279#0" expanded="true" />
-                <element signature="e#4285#4840#0" />
-                <element signature="e#4285#4976#0" />
-                <element signature="e#4982#5761#0" />
-                <element signature="e#4982#6009#0" />
-                <element signature="e#6015#7298#0" />
-                <element signature="e#7434#8854#0" />
-                <element signature="e#7434#9117#0" />
-                <element signature="e#9123#10391#0" />
-                <element signature="e#10517#11922#0" />
-                <element signature="e#10517#12175#0" />
-                <element signature="e#12181#12242#0" />
-                <element signature="e#12181#12376#0" />
-                <element signature="e#12382#12596#0" />
-                <element signature="e#12382#12841#0" />
-                <element signature="e#12918#13101#0" />
-                <element signature="e#12918#13544#0" />
-                <element signature="e#13550#14424#0" />
-                <element signature="e#13550#14678#0" />
-                <element signature="e#14684#14954#0" />
-                <element signature="e#15022#15310#0" />
-                <element signature="e#15520#16058#0" />
-                <element signature="e#15520#16477#0" />
-                <element signature="e#16483#17118#0" />
-                <element signature="e#16483#17557#0" />
-                <element signature="e#17802#18420#0" />
-                <element signature="e#18943#19423#0" />
-                <element signature="e#19476#19873#0" />
-                <element signature="e#19957#20288#0" />
-                <element signature="e#20319#20320#0" expanded="true" />
-                <element signature="e#20359#20360#0" expanded="true" />
-                <element signature="e#20366#20801#0" />
-                <element signature="e#20878#21317#0" />
-                <element signature="e#21395#21847#0" />
-                <element signature="e#21926#22399#0" />
-                <element signature="e#22479#22891#0" />
-                <element signature="e#22955#23387#0" />
-                <element signature="e#22955#23504#0" />
-                <element signature="e#23510#23959#0" />
-                <element signature="e#24087#24353#0" />
-                <element signature="e#24380#24381#0" expanded="true" />
-                <element signature="e#24405#24406#0" expanded="true" />
-                <element signature="e#24412#24674#0" />
-                <element signature="e#24808#25067#0" />
-                <element signature="e#25198#25454#0" />
-                <element signature="e#25198#25578#0" />
-                <element signature="e#25584#25840#0" />
-                <element signature="e#25584#25965#0" />
-                <element signature="e#25971#26228#0" />
-                <element signature="e#25971#26354#0" />
-                <element signature="e#26360#26620#0" />
-                <element signature="e#26360#26747#0" />
-                <element signature="e#26753#27016#0" />
-                <element signature="e#26753#27143#0" />
-                <element signature="e#27149#27409#0" />
-                <element signature="e#27149#27536#0" />
-                <element signature="e#27542#27897#0" />
-                <element signature="e#27542#28062#0" />
-                <element signature="e#28069#29911#0" />
-                <element signature="e#30024#32075#0" />
-                <element signature="e#32201#34027#0" />
-                <element signature="e#32201#34618#0" />
-                <element signature="e#34624#36433#0" />
-                <element signature="e#34624#36988#0" />
-                <element signature="e#36994#37908#0" />
-                <element signature="e#36994#38085#0" />
-                <element signature="e#38091#39309#0" />
-                <element signature="e#38091#39516#0" />
-                <element signature="e#39522#39923#0" />
-                <element signature="e#39522#40008#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Writer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/Writer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4133">
-              <caret line="179" column="16" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+            <state relative-caret-position="-74">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -216,30 +36,6 @@
       <file leaf-file-name="Валидация" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
           <provider selected="true" editor-type-id="EditorTypeId" />
-        </entry>
-      </file>
-      <file leaf-file-name="FilterOutputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/FilterOutputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="44" column="45" selection-start-line="44" selection-end-line="44" selection-end-column="45" />
-              <folding>
-                <element signature="docComment;class#FilterOutputStream#0" />
-                <element signature="docComment;field#out#0;class#FilterOutputStream#0" />
-                <element signature="docComment;method#FilterOutputStream#0;class#FilterOutputStream#0" />
-                <element signature="docComment;method#write#0;class#FilterOutputStream#0" />
-                <element signature="method#write#0;class#FilterOutputStream#0" />
-                <element signature="docComment;method#write#1;class#FilterOutputStream#0" />
-                <element signature="method#write#1;class#FilterOutputStream#0" />
-                <element signature="docComment;method#write#2;class#FilterOutputStream#0" />
-                <element signature="method#write#2;class#FilterOutputStream#0" />
-                <element signature="docComment;method#flush#0;class#FilterOutputStream#0" />
-                <element signature="method#flush#0;class#FilterOutputStream#0" />
-                <element signature="docComment;method#close#0;class#FilterOutputStream#0" />
-                <element signature="method#close#0;class#FilterOutputStream#0" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="Условие.jrtc" pinned="false" current-in-tab="false">
@@ -1594,12 +1390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1911/Условие.jrtc">
-      <provider selected="true" editor-type-id="EditorTypeId" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
-      <provider selected="true" editor-type-id="EditorTypeId" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4133">
@@ -1799,10 +1589,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1911/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1911/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state relative-caret-position="-74">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
