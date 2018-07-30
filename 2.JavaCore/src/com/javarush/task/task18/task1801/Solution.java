@@ -20,7 +20,7 @@ import java.util.*;
 4. Поток чтения из файла должен быть закрыт.
 */
 public class Solution {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) /*throws Exception*/ {
         BufferedReader reader = null;
         InputStream in = null;
         try {
