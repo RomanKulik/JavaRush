@@ -35,6 +35,9 @@ text1, text2 могут быть пустыми
 3. Программа должна считывать содержимое файла (используй FileReader).
 4. Поток чтения из файла (FileReader) должен быть закрыт.
 5. Программа должна выводить в консоль все теги, которые соответствуют тегу, заданному в параметре метода main.
+
+3 примера JSoup https://javarush.ru/groups/posts/10ф86-3-primera-kak-razobratjh-html-fayl-v-java-ispoljhzuja-jsoup
+http://developer.alexanderklimov.ru/android/library/jsoup.php
 */
 
 import org.jsoup.Jsoup;
@@ -48,11 +51,15 @@ public class Solution {
         String tag = args.length == 0 ? "span" : args[0];
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
              BufferedReader fr = new BufferedReader(new FileReader(reader.readLine()))) {
-            while (fr.ready()) {
-                //Document doc = Jsoup.parse(fr.readLine());
-                Document doc1 = Jsoup.parse(fr.readLine(), "", Parser.xmlParser());
-                System.out.println(doc1.getElementsByTag(tag));
-            }
+           //Document doc = Jsoup.connect("http://developer.alexanderklimov.ru/android/library/jsoup.php").get();
+            //Document doc = Jsoup.parse(new File("D:/0.html"), "UTF-8");
+            //System.out.println(doc.select(tag));
+            StringBuilder sb = new StringBuilder();
+            while (fr.ready())
+                sb.append(fr.readLine());
+            Document //doc = Jsoup.parse(sb.toString());
+            doc = Jsoup.parse(sb.toString(), "", Parser.xmlParser());
+            System.out.println(doc.select(tag));
         } catch (IOException e) {
             System.out.println(e);
         } catch (NullPointerException e){
