@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task19/task1924/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task19/task1924/Solution.class" afterDir="false" />
-    </list>
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="" />
     <ignored path="JavaRushTasks.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,26 +34,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="info" value="1" />
-          <entry key="java" value="52" />
-          <entry key="jrtc" value="11" />
-          <entry key="Валидация" value="63" />
+          <entry key="java" value="58" />
+          <entry key="jrtc" value="12" />
+          <entry key="Валидация" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="52" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="UNKNOWN" value="63" />
+          <entry key="JAVA" value="58" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="UNKNOWN" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9848" />
+          <entry key="java" value="10307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9848" />
+          <entry key="JAVA" value="10307" />
         </counts>
       </usages-collector>
     </session>
@@ -66,31 +63,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1926/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1925/Solution.java">
+        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1926/ReverseString_5Ways.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="67" />
+            <state relative-caret-position="224">
+              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+              <folding>
+                <element signature="e#1296#1307#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
-          <provider selected="true" editor-type-id="EditorTypeId" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/BufferedReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13563">
-              <caret line="441" column="19" selection-start-line="441" selection-start-column="19" selection-end-line="441" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1925/Условие.jrtc">
+        <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1926/Условие.jrtc">
           <provider selected="true" editor-type-id="EditorTypeId" />
         </entry>
       </file>
@@ -158,8 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1824/Solution.java" />
-        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1823/Solution_short.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1825/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1826/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1827/ProductException.java" />
@@ -209,6 +202,8 @@
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1923/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1924/Solution.java" />
         <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1925/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1926/Solution.java" />
+        <option value="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1926/ReverseString_5Ways.java" />
       </list>
     </option>
   </component>
@@ -224,7 +219,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
@@ -314,6 +309,14 @@
               <item name="com.javarush.task" type="1f31426a:PackageElementNode" />
               <item name="task19" type="1f31426a:PackageElementNode" />
               <item name="task1925" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="2.JavaCore" type="616d4139:PackageViewModuleNode" />
+              <item name="com.javarush.task" type="1f31426a:PackageElementNode" />
+              <item name="task19" type="1f31426a:PackageElementNode" />
+              <item name="task1926" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="JavaRushTasks" type="58d84e3e:PackageViewProjectNode" />
@@ -578,7 +581,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/User/Dev/GitHub/GitProjects/JavaRush/Levels/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1909/Условие.jrtc" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533292407351" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533304158347" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -623,7 +626,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (5)">
+  <component name="RunManager" selected="Application.ReverseString_5Ways">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -850,13 +853,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task19.task1921.Solution" />
+    <configuration name="ReverseString_5Ways" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task19.task1926.ReverseString_5Ways" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task19.task1921.*" />
+          <option name="PATTERN" value="com.javarush.task.task19.task1926.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task19.task1926.Solution" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task19.task1926.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -899,20 +916,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task19.task1925.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task19.task1922.Solution" />
-      <module name="2.JavaCore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task19.task1922.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -970,19 +973,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.Solution (6)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.ReverseString_5Ways" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseString_5Ways" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (6)" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -1036,8 +1039,8 @@
       <window_info id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.68108106" visible="true" weight="0.3047831" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.78162163" weight="0.28253615" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68108106" weight="0.5394883" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.78162163" visible="true" weight="0.21245828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32887402" />
@@ -1058,7 +1061,7 @@
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.32972974" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19351351" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23189189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24972972" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1067,14 +1070,14 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32972974" />
       <window_info id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68108106" visible="true" weight="0.22147651" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.78162163" weight="0.17948718" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.68108106" visible="true" weight="0.3047831" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.78162163" weight="0.28253615" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32887402" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3189189" side_tool="true" weight="0.27090302" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49135137" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49135137" weight="0.32814237" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49351352" weight="0.32887402" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32963374" />
@@ -1160,38 +1163,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1912/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1913/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1419">
-          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1914/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1551">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1915/Условие.jrtc">
-      <provider selected="true" editor-type-id="EditorTypeId" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1916/SplitFile.java" />
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1910/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1911/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1980">
@@ -1318,17 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-253">
           <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="379" column="26" selection-start-line="379" selection-start-column="26" selection-end-line="379" selection-end-column="26" />
-          <folding>
-            <element signature="e#10229#10230#0" expanded="true" />
-            <element signature="e#10270#10271#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1489,13 +1449,263 @@
     <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1925/Условие.jrtc">
       <provider selected="true" editor-type-id="EditorTypeId" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1925/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1926/Условие.jrtc">
+      <provider selected="true" editor-type-id="EditorTypeId" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+          <folding>
+            <element signature="docComment;class#StringBuilder#0" />
+            <element signature="docComment;field#serialVersionUID#0;class#StringBuilder#0" />
+            <element signature="docComment;method#StringBuilder#0;class#StringBuilder#0" />
+            <element signature="docComment;method#StringBuilder#1;class#StringBuilder#0" />
+            <element signature="docComment;method#StringBuilder#2;class#StringBuilder#0" />
+            <element signature="method#StringBuilder#2;class#StringBuilder#0" />
+            <element signature="docComment;method#StringBuilder#3;class#StringBuilder#0" />
+            <element signature="method#StringBuilder#3;class#StringBuilder#0" />
+            <element signature="method#append#1;class#StringBuilder#0" />
+            <element signature="docComment;method#append#2;class#StringBuilder#0" />
+            <element signature="method#append#2;class#StringBuilder#0" />
+            <element signature="method#append#3;class#StringBuilder#0" />
+            <element signature="docComment;method#append#4;class#StringBuilder#0" />
+            <element signature="method#append#4;class#StringBuilder#0" />
+            <element signature="method#append#5;class#StringBuilder#0" />
+            <element signature="docComment;method#append#6;class#StringBuilder#0" />
+            <element signature="method#append#6;class#StringBuilder#0" />
+            <element signature="method#append#7;class#StringBuilder#0" />
+            <element signature="method#append#8;class#StringBuilder#0" />
+            <element signature="method#append#9;class#StringBuilder#0" />
+            <element signature="method#append#10;class#StringBuilder#0" />
+            <element signature="method#append#11;class#StringBuilder#0" />
+            <element signature="method#append#12;class#StringBuilder#0" />
+            <element signature="docComment;method#appendCodePoint#0;class#StringBuilder#0" />
+            <element signature="method#appendCodePoint#0;class#StringBuilder#0" />
+            <element signature="docComment;method#delete#0;class#StringBuilder#0" />
+            <element signature="method#delete#0;class#StringBuilder#0" />
+            <element signature="docComment;method#deleteCharAt#0;class#StringBuilder#0" />
+            <element signature="method#deleteCharAt#0;class#StringBuilder#0" />
+            <element signature="docComment;method#replace#0;class#StringBuilder#0" />
+            <element signature="method#replace#0;class#StringBuilder#0" />
+            <element signature="docComment;method#insert#0;class#StringBuilder#0" />
+            <element signature="method#insert#0;class#StringBuilder#0" />
+            <element signature="docComment;method#insert#1;class#StringBuilder#0" />
+            <element signature="method#insert#1;class#StringBuilder#0" />
+            <element signature="docComment;method#insert#2;class#StringBuilder#0" />
+            <element signature="method#insert#2;class#StringBuilder#0" />
+            <element signature="docComment;method#insert#3;class#StringBuilder#0" />
+            <element signature="method#insert#3;class#StringBuilder#0" />
+            <element signature="docComment;method#insert#4;class#StringBuilder#0" />
+            <element signature="method#insert#4;class#StringBuilder#0" />
+            <element signature="docComment;method#insert#5;class#StringBuilder#0" />
+            <element signature="method#insert#5;class#StringBuilder#0" />
+            <element signature="docComment;method#insert#6;class#StringBuilder#0" />
+            <element signature="method#insert#6;class#StringBuilder#0" />
+            <element signature="docComment;method#insert#7;class#StringBuilder#0" />
+            <element signature="method#insert#7;class#StringBuilder#0" />
+            <element signature="docComment;method#insert#8;class#StringBuilder#0" />
+            <element signature="method#insert#8;class#StringBuilder#0" />
+            <element signature="docComment;method#insert#9;class#StringBuilder#0" />
+            <element signature="method#insert#9;class#StringBuilder#0" />
+            <element signature="docComment;method#insert#10;class#StringBuilder#0" />
+            <element signature="method#insert#10;class#StringBuilder#0" />
+            <element signature="docComment;method#insert#11;class#StringBuilder#0" />
+            <element signature="method#insert#11;class#StringBuilder#0" />
+            <element signature="method#reverse#0;class#StringBuilder#0" />
+            <element signature="method#toString#0;class#StringBuilder#0" />
+            <element signature="docComment;method#writeObject#0;class#StringBuilder#0" />
+            <element signature="method#writeObject#0;class#StringBuilder#0" />
+            <element signature="docComment;method#readObject#0;class#StringBuilder#0" />
+            <element signature="method#readObject#0;class#StringBuilder#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
       <provider selected="true" editor-type-id="EditorTypeId" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1925/Solution.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="67" />
+        <state relative-caret-position="198">
+          <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="docComment;class#Stack#0" />
+            <element signature="docComment;method#Stack#0;class#Stack#0" />
+            <element signature="method#Stack#0;class#Stack#0" />
+            <element signature="docComment;method#push#0;class#Stack#0" />
+            <element signature="method#push#0;class#Stack#0" />
+            <element signature="docComment;method#pop#0;class#Stack#0" />
+            <element signature="method#pop#0;class#Stack#0" />
+            <element signature="docComment;method#peek#0;class#Stack#0" />
+            <element signature="method#peek#0;class#Stack#0" />
+            <element signature="docComment;method#empty#0;class#Stack#0" />
+            <element signature="docComment;method#search#0;class#Stack#0" />
+            <element signature="method#search#0;class#Stack#0" />
+            <element signature="docComment;field#serialVersionUID#0;class#Stack#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-419">
+          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#Vector#0" />
+            <element signature="e#3162#3502#0" />
+            <element signature="e#3544#3760#0" />
+            <element signature="e#3798#4108#0" />
+            <element signature="e#4151#4214#0" />
+            <element signature="e#4292#4727#0" />
+            <element signature="e#4292#5089#0" />
+            <element signature="e#5095#5407#0" />
+            <element signature="e#5494#5650#0" />
+            <element signature="e#5702#6060#0" />
+            <element signature="e#5702#6404#0" />
+            <element signature="e#6410#7062#0" />
+            <element signature="e#7200#7603#0" />
+            <element signature="e#7200#7839#0" />
+            <element signature="e#7845#8710#0" />
+            <element signature="e#7845#8891#0" />
+            <element signature="e#8897#9185#0" />
+            <element signature="e#8897#9364#0" />
+            <element signature="e#9370#9601#0" />
+            <element signature="e#9676#10185#0" />
+            <element signature="e#10191#10438#0" />
+            <element signature="e#10444#10870#0" />
+            <element signature="e#10444#11202#0" />
+            <element signature="e#11208#11441#0" />
+            <element signature="e#11529#11659#0" />
+            <element signature="e#11737#11961#0" />
+            <element signature="e#12051#12425#0" />
+            <element signature="e#12051#12963#0" />
+            <element signature="class#12484:12956" />
+            <element signature="method#nextElement#0;class#12484:12956" />
+            <element signature="e#12969#13404#0" />
+            <element signature="e#13491#14038#0" />
+            <element signature="e#14115#14955#0" />
+            <element signature="e#14115#15353#0" />
+            <element signature="e#15359#15905#0" />
+            <element signature="e#16016#16882#0" />
+            <element signature="e#16016#17375#0" />
+            <element signature="e#17381#17835#0" />
+            <element signature="e#17381#18058#0" />
+            <element signature="e#18064#18295#0" />
+            <element signature="e#18064#18466#0" />
+            <element signature="e#18472#18731#0" />
+            <element signature="e#18472#18916#0" />
+            <element signature="e#18922#19880#0" />
+            <element signature="e#18922#20167#0" />
+            <element signature="e#20173#21083#0" />
+            <element signature="e#20173#21697#0" />
+            <element signature="e#21703#22812#0" />
+            <element signature="e#21703#23284#0" />
+            <element signature="e#23290#23711#0" />
+            <element signature="e#23290#23877#0" />
+            <element signature="e#23883#24546#0" />
+            <element signature="e#23883#24773#0" />
+            <element signature="e#24779#25006#0" />
+            <element signature="e#24779#25222#0" />
+            <element signature="e#25228#25494#0" />
+            <element signature="e#25228#25935#0" />
+            <element signature="e#25941#26076#0" />
+            <element signature="e#26190#27468#0" />
+            <element signature="e#26190#27832#0" />
+            <element signature="e#27987#28320#0" />
+            <element signature="e#27987#28501#0" />
+            <element signature="e#28507#28961#0" />
+            <element signature="e#28507#29222#0" />
+            <element signature="e#29228#29451#0" />
+            <element signature="e#29228#29630#0" />
+            <element signature="e#29636#30121#0" />
+            <element signature="e#30204#30706#0" />
+            <element signature="e#30803#31284#0" />
+            <element signature="e#30803#31772#0" />
+            <element signature="e#31778#31957#0" />
+            <element signature="e#32048#32453#0" />
+            <element signature="e#32565#33259#0" />
+            <element signature="e#32565#33598#0" />
+            <element signature="e#33604#34419#0" />
+            <element signature="e#34527#35516#0" />
+            <element signature="e#35624#36491#0" />
+            <element signature="e#35624#37134#0" />
+            <element signature="e#37140#37797#0" />
+            <element signature="e#37892#37955#0" />
+            <element signature="e#38041#38168#0" />
+            <element signature="e#38257#40129#0" />
+            <element signature="e#38257#40335#0" />
+            <element signature="e#40341#40715#0" />
+            <element signature="e#40341#41162#0" />
+            <element signature="e#41168#41377#0" />
+            <element signature="e#41168#41850#0" />
+            <element signature="e#41856#42430#0" />
+            <element signature="e#41856#42650#0" />
+            <element signature="e#42656#42886#0" />
+            <element signature="e#42986#43244#0" />
+            <element signature="e#43331#43390#0" />
+            <element signature="e#43331#45630#0" />
+            <element signature="e#43624#43836#0" />
+            <element signature="e#43663#43719#0" />
+            <element signature="e#43846#44178#0" />
+            <element signature="e#44188#44545#0" />
+            <element signature="e#44555#45460#0" />
+            <element signature="e#45470#45624#0" />
+            <element signature="e#45636#45699#0" />
+            <element signature="e#45636#46995#0" />
+            <element signature="e#45773#45852#0" />
+            <element signature="e#46094#46418#0" />
+            <element signature="e#46428#46684#0" />
+            <element signature="e#46694#46989#0" />
+            <element signature="e#47001#47560#0" />
+            <element signature="e#47566#47575#0" />
+            <element signature="e#47566#49217#0" />
+            <element signature="e#47731#47777#0" />
+            <element signature="e#49223#49232#0" />
+            <element signature="e#49223#49747#0" />
+            <element signature="e#49753#49783#0" />
+            <element signature="e#49753#50102#0" />
+            <element signature="e#50108#50633#0" />
+            <element signature="e#50763#50802#0" />
+            <element signature="e#50763#53985#0" />
+            <element signature="e#51163#51218#0" />
+            <element signature="e#51163#51540#0" />
+            <element signature="e#51550#51911#0" />
+            <element signature="e#51921#52204#0" />
+            <element signature="e#52214#52727#0" />
+            <element signature="e#52737#53750#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/WeakHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="135" column="13" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1926/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1926/ReverseString_5Ways.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding>
+            <element signature="e#1296#1307#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
