@@ -19,6 +19,10 @@ import java.util.List;
 3. Класс Solution.Human не должен поддерживать интерфейс Serializable.
 4. Класс Solution.Human должен быть публичным.
 5. Класс Solution.Human не должен поддерживать интерфейс Externalizable.
+
+>>> https://stackoverflow.com/questions/19058859/what-does-mean-in-java
+XOR or '^'   https://stackoverflow.com/questions/1991380/what-does-the-operator-do-in-java
+Практика применения XOR в программировании. https://habr.com/post/183462/
 */
 
 public class Solution {
