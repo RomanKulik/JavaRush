@@ -91,26 +91,19 @@ public class Solution {
         public void save(OutputStream outputStream) throws Exception {
             //implement this method - реализуйте этот метод
             PrintWriter pr = new PrintWriter(outputStream);
-            if (this.name != null) {
-                pr.println(this.name);
-                pr.flush();
-                if (this.assets != null) {
-                    for (Asset a : assets) {
-                        pr.println(a.getName());
-                        pr.println(a.getPrice());
-                        pr.flush();
-                    }
-                }
-            } else {
-                System.out.println("smth wrong with data: name = null");
+            pr.println(this.name);
+            for (Asset a : assets) {
+                pr.println(a.getName());
+                pr.println(a.getPrice());
             }
+           pr.flush(); // без этого не пропустит
         }
 
         public void load(InputStream inputStream) throws Exception {
             //implement this method - реализуйте этот метод
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
             this.name = reader.readLine();
-            while (reader.ready()){
+            while (reader.ready()) {
                 this.assets.add(
                         new Asset(reader.readLine(),
                                 Double.parseDouble(reader.readLine())));
