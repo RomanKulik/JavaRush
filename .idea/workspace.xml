@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="Л" />
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="Л">
+      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/16 пошаговых заданий" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/MinesweeperGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/JavaRushTasks$Solution__1_.ic" NAME="Solution (1) Coverage Results" MODIFIED="1533749340028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -117,7 +125,7 @@
       <recent name="D:\User\Рабочий стол\JavaRush\Levels\JavaRushTasks\2.JavaCore\src\com\javarush\task\task15\task1512" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.MinesweeperGame">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -358,13 +366,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2008.Solution" />
-      <module name="2.JavaCore" />
+    <configuration name="MinesweeperGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.games.minesweeper.MinesweeperGame" />
+      <module name="8.Games" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task20.task2008.*" />
+          <option name="PATTERN" value="com.javarush.games.minesweeper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,13 +380,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2005.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2008.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task20.task2005.*" />
+          <option name="PATTERN" value="com.javarush.task.task20.task2008.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -465,20 +473,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.AdvancedOverloadingChallenge3" />
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (6)" />
-      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.MinesweeperGame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinesweeperGame" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.AdvancedOverloadingChallenge3" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (6)" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -529,30 +537,30 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="605" y="295" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591291263100">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="605" y="295" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1591291263100" />
     <state x="571" y="319" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591036039724">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="571" y="319" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1591036039724" />
-    <state x="630" y="151" key="FileChooserDialogImpl" timestamp="1582561000155">
+    <state width="1852" height="15" key="GridCell.Tab.0.bottom" timestamp="1591291755988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="630" y="151" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582561000155" />
-    <state width="1852" height="520" key="GridCell.Tab.0.bottom" timestamp="1583096557715">
+    <state width="1852" height="15" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591291755988" />
+    <state width="1852" height="15" key="GridCell.Tab.0.center" timestamp="1591291755988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="520" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583096557715" />
-    <state width="1852" height="520" key="GridCell.Tab.0.center" timestamp="1583096557714">
+    <state width="1852" height="15" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591291755988" />
+    <state width="1852" height="15" key="GridCell.Tab.0.left" timestamp="1591291755987">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="520" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583096557714" />
-    <state width="1852" height="520" key="GridCell.Tab.0.left" timestamp="1583096557714">
+    <state width="1852" height="15" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591291755987" />
+    <state width="1852" height="15" key="GridCell.Tab.0.right" timestamp="1591291755988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="520" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583096557714" />
-    <state width="1852" height="520" key="GridCell.Tab.0.right" timestamp="1583096557715">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1852" height="520" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583096557715" />
+    <state width="1852" height="15" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591291755988" />
     <state x="126" y="0" key="SettingsEditor" timestamp="1591035623495">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
