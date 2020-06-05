@@ -16,7 +16,7 @@ public class MinesweeperGame extends Game {
     private int countMinesOnField; // количество мин на поле
     private int countFlags; // количество неиспользованных флагов
     private int countClosedTiles = SIDE * SIDE; // подсчет числа закрытых ячеек
-    private  int score; // переменная для учета очков
+    private int score; // переменная для учета очков
 
     private boolean isGameStopped;
 
@@ -28,6 +28,17 @@ public class MinesweeperGame extends Game {
     }
 
     private void createGame() {
+        // В методе createGame() игровое поле должно очищаться от всех надписей
+        // (флагов, мин, чисел).
+        // Используй метод setCellValue(int, int, String).
+        // В качестве последнего параметра передай пустую строку.
+            for (int i = 0; i < SIDE; i++) {
+                for (int j = 0; j < SIDE; j++) {
+                    setCellValue(i, j, "");
+                }
+            }
+
+        // Инициализация поля
         for (int y = 0; y < SIDE; y++) {
             for (int x = 0; x < SIDE; x++) {
                 boolean isMine = getRandomNumber(10) < 1;
@@ -40,7 +51,8 @@ public class MinesweeperGame extends Game {
         }
         countMineNeighbors();
         this.countFlags = this.countMinesOnField;
-        this.isGameStopped = false;
+        // Присваивание значения полю isGameStopped не должно происходить в методе createGame().
+        //this.isGameStopped = false;
     }
 
     private List<GameObject> getNeighbors(GameObject gameObject) {
@@ -192,14 +204,38 @@ public class MinesweeperGame extends Game {
         showMessageDialog(Color.BLACK, "YOU WIN!!!", Color.RED, 40);
     }
 
+    private void restart() {
+        // В методе restart() должны возвращаться исходные значения полей
+        // countClosedTiles, score и countMinesOnField.
+        this.countClosedTiles = SIDE * SIDE;
+        this.score = 0;
+        this.countMinesOnField = 0;
+        // Метод restart() должен вызывать метод setScore(int).
+        setScore(this.score);
+        // Метод restart() должен вызывать метод createGame()
+        // после установки исходных значений полей
+        // countClosedTiles, score и countMinesOnField.
+        createGame();
+        // Присваивание значения false полю isGameStopped должно происходить в методе restart().
+        isGameStopped = false;
+    }
+
     @Override
     public void onMouseLeftClick(int x, int y) {
         //super.onMouseLeftClick(x, y);
-        openTile(x, y);
+        //Метод onMouseLeftClick(int, int) должен вызывать метод restart()
+        // и ничего не делать, если игра остановлена.
+        if (isGameStopped) {
+            restart();
+        } else {
+            openTile(x, y);
+        }
     }
 
     @Override
     public void onMouseRightClick(int x, int y) {
-        markTile(x, y);
+        if (!isGameStopped) {
+            markTile(x, y);
+        }
     }
 }

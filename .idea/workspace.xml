@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="MinesweeperGame: Step 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/16 пошаговых заданий" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/16 пошаговых заданий" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/MinesweeperGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/MinesweeperGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/8.Games/com/javarush/games/minesweeper/16 пошаговых заданий" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8.Games/com/javarush/games/minesweeper/16 пошаговых заданий" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/8.Games/com/javarush/games/minesweeper/MinesweeperGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8.Games/com/javarush/games/minesweeper/MinesweeperGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/8.Games/com/javarush/games/minesweeper/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8.Games/com/javarush/games/minesweeper/Условие.jrtc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -530,22 +534,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="343" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1591292357292" />
-    <state width="1852" height="143" key="GridCell.Tab.0.bottom" timestamp="1591377557174">
+    <state width="1852" height="143" key="GridCell.Tab.0.bottom" timestamp="1591387706865">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="143" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591377557174" />
-    <state width="1852" height="143" key="GridCell.Tab.0.center" timestamp="1591377557174">
+    <state width="1852" height="143" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591387706865" />
+    <state width="1852" height="143" key="GridCell.Tab.0.center" timestamp="1591387706865">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="143" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591377557174" />
-    <state width="1852" height="143" key="GridCell.Tab.0.left" timestamp="1591377557174">
+    <state width="1852" height="143" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591387706865" />
+    <state width="1852" height="143" key="GridCell.Tab.0.left" timestamp="1591387706865">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="143" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591377557174" />
-    <state width="1852" height="143" key="GridCell.Tab.0.right" timestamp="1591377557174">
+    <state width="1852" height="143" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591387706865" />
+    <state width="1852" height="143" key="GridCell.Tab.0.right" timestamp="1591387706865">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="143" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591377557174" />
+    <state width="1852" height="143" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591387706865" />
     <state x="126" y="0" key="SettingsEditor" timestamp="1591035623495">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
