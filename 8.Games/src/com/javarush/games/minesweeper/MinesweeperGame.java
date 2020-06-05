@@ -8,8 +8,10 @@ import java.util.List;
 
 public class MinesweeperGame extends Game {
     private static final int SIDE = 9;
+    private static final String MINE = "\uD83D\uDCA3";
     private GameObject[][] gameField = new GameObject[SIDE][SIDE];
     private int countMinesOnField;
+
 
     @Override
     public void initialize() {
@@ -53,6 +55,7 @@ public class MinesweeperGame extends Game {
     private void countMineNeighbors() {
         for (GameObject[] g : this.gameField) {
             for (GameObject go : g) {
+                // получить соседей кождой ячейки и передать их в лист соседей
                 List<GameObject> gameObjectList = getNeighbors(go);
                 for (GameObject isMine : gameObjectList) {
                     // Метод countMineNeighbors() должен для каждой ячейки "не мины"
@@ -65,5 +68,33 @@ public class MinesweeperGame extends Game {
             }
 
         }
+    }
+
+    private void openTile(int x, int y) {
+        GameObject go = gameField[y][x];
+        // Метод openTile(int, int) должен отрисовывать MINE,
+        // если gameObject по текущим координатам является миной.
+        // Используй метод setCellValue(int, int, String).
+        if (go.isMine) {
+            setCellValue(x, y, this.MINE);
+            //setCellColor(x,y, Color.RED);
+        } else {
+            // Метод openTile(int, int) должен отрисовывать количество соседей-мин,
+            // если gameObject по текущим координатам не является миной.
+            // Используй метод setCellNumber(int, int, int).
+            setCellNumber(x, y, go.countMineNeighbors);
+            // В методе openTile(int, int) элементу матрицы gameField
+            // должно устанавливаться значение поля isOpen, равное true,
+            // и отрисовываться фон ячейки с помощью метода setCellColor(int, int, Color).
+            // Например, в Color.GREEN.
+            go.isOpen = true;
+            setCellColor(x, y, Color.GREEN);
+        }
+    }
+
+    @Override
+    public void onMouseLeftClick(int x, int y) {
+        //super.onMouseLeftClick(x, y);
+        openTile(x, y);
     }
 }
