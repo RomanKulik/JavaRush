@@ -7,13 +7,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MinesweeperGame extends Game {
-    private static final int SIDE = 9; // размер квадратного игрового поля
+    private static final int SIDE = 3; // размер квадратного игрового поля
     private static final String MINE = "\uD83D\uDCA3";
     private static final String FLAG = "\uD83D\uDEA9";
 
     private GameObject[][] gameField = new GameObject[SIDE][SIDE]; // массив ячеек поля
+
     private int countMinesOnField; // количество мин на поле
     private int countFlags; // количество неиспользованных флагов
+    private int countClosedTiles = SIDE * SIDE; // подсчет числа закрытых ячеек
+
     private boolean isGameStopped;
 
 
@@ -85,6 +88,9 @@ public class MinesweeperGame extends Game {
         // В методе openTile(int, int) элементу матрицы gameField
         // должно устанавливаться значение поля isOpen, равное true,
         go.isOpen = true;
+        //В методе openTile(int, int) значение поля countClosedTiles должно уменьшаться на 1,
+        // если элемент матрицы gameField отмечается флагом isOpen.
+        this.countClosedTiles--;
         // и отрисовываться фон ячейки с помощью метода setCellColor(int, int, Color).
         // Например, в Color.GREEN.
         setCellColor(x, y, Color.GREEN);
@@ -95,6 +101,12 @@ public class MinesweeperGame extends Game {
             setCellValueEx(x, y, Color.RED, this.MINE);
             gameOver();
         } else {
+            // Метод openTile(int, int) должен вызывать метод win(),
+            // если количество не открытых ячеек равно количеству мин на поле,
+            // и последняя открытая ячейка не является миной.
+            if (this.countClosedTiles == this.countMinesOnField) {
+                win();
+            }
             // В методе openTile(int, int), если элемент не является миной и
             // количество соседей-мин равно нулю,для каждого не открытого соседа
             // должен рекурсивно вызываться метод openTile(int, int).
@@ -164,7 +176,12 @@ public class MinesweeperGame extends Game {
 
     private void gameOver() {
         this.isGameStopped = true;
-        showMessageDialog(Color.BLACK, "Game Over", Color.RED, 20);
+        showMessageDialog(Color.BLACK, "Game Over", Color.RED, 40);
+    }
+
+    private void win() {
+        this.isGameStopped = true;
+        showMessageDialog(Color.BLACK, "YOU WIN!!!", Color.RED, 40);
     }
 
     @Override
