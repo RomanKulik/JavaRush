@@ -77,10 +77,11 @@ public class MinesweeperGame extends Game {
     }
 
     private void openTile(int x, int y) {
-        if (this.isGameStopped){
+        GameObject go = gameField[y][x];
+        if (go.isOpen || go.isFlag || this.isGameStopped) {
             return;
         }
-        GameObject go = gameField[y][x];
+
         // В методе openTile(int, int) элементу матрицы gameField
         // должно устанавливаться значение поля isOpen, равное true,
         go.isOpen = true;
