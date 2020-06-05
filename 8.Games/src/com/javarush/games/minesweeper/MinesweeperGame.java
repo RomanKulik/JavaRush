@@ -14,6 +14,7 @@ public class MinesweeperGame extends Game {
     private GameObject[][] gameField = new GameObject[SIDE][SIDE]; // массив ячеек поля
     private int countMinesOnField; // количество мин на поле
     private int countFlags; // количество неиспользованных флагов
+    private boolean isGameStopped;
 
 
     @Override
@@ -35,6 +36,7 @@ public class MinesweeperGame extends Game {
         }
         countMineNeighbors();
         this.countFlags = this.countMinesOnField;
+        this.isGameStopped = false;
     }
 
     private List<GameObject> getNeighbors(GameObject gameObject) {
@@ -75,6 +77,9 @@ public class MinesweeperGame extends Game {
     }
 
     private void openTile(int x, int y) {
+        if (this.isGameStopped){
+            return;
+        }
         GameObject go = gameField[y][x];
         // В методе openTile(int, int) элементу матрицы gameField
         // должно устанавливаться значение поля isOpen, равное true,
@@ -86,8 +91,8 @@ public class MinesweeperGame extends Game {
         // если gameObject по текущим координатам является миной.
         // Используй метод setCellValue(int, int, String).
         if (go.isMine) {
-            setCellValue(x, y, this.MINE);
-            setCellColor(x, y, Color.RED);
+            setCellValueEx(x, y, Color.RED, this.MINE);
+            gameOver();
         } else {
             // В методе openTile(int, int), если элемент не является миной и
             // количество соседей-мин равно нулю,для каждого не открытого соседа
@@ -154,6 +159,11 @@ public class MinesweeperGame extends Game {
             // и возвращать исходный цвет ячейки (используй метод setCellColor(int, int, Color)).
             setCellColor(x, y, Color.ORANGE);
         }
+    }
+
+    private void gameOver() {
+        this.isGameStopped = true;
+        showMessageDialog(Color.BLACK, "Game Over", Color.RED, 20);
     }
 
     @Override
