@@ -4,11 +4,9 @@
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="MinesweeperGame: Step 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/16 пошаговых заданий" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/16 пошаговых заданий" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/GameObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/MinesweeperGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/MinesweeperGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/8.Games/com/javarush/games/minesweeper/16 пошаговых заданий" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8.Games/com/javarush/games/minesweeper/16 пошаговых заданий" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/8.Games/com/javarush/games/minesweeper/MinesweeperGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8.Games/com/javarush/games/minesweeper/MinesweeperGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/8.Games/com/javarush/games/minesweeper/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8.Games/com/javarush/games/minesweeper/Условие.jrtc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,44 +33,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>internship</find>
-      <find>tmp</find>
-      <find>i</find>
-      <find>low</find>
-      <find>ine</find>
-      <find>$</find>
-      <find>run</find>
-      <find>closeab</find>
-      <find>set</find>
-      <find>toArr</find>
-      <find>reta</find>
-      <find>containsA</find>
-      <find>lastIn</find>
-      <find>sta</find>
-      <find>sync</find>
-      <find>sy</find>
-      <find>synchronized</find>
-      <find>charset</find>
-      <find>close</find>
-      <find>avaliabl</find>
-      <find>available</find>
-      <find>readA</find>
-      <find>throw</find>
-      <find>Buffere</find>
-      <find>reader</find>
-      <find>incomeData</find>
-      <find>save</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Woman</replace>
-      <replace>min</replace>
-      <replace>j</replace>
-      <replace>setFieldsFactory</replace>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -572,22 +532,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="343" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1591292357292" />
-    <state width="1852" height="15" key="GridCell.Tab.0.bottom" timestamp="1591294927567">
+    <state width="1852" height="15" key="GridCell.Tab.0.bottom" timestamp="1591306564259">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="15" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591294927567" />
-    <state width="1852" height="15" key="GridCell.Tab.0.center" timestamp="1591294927566">
+    <state width="1852" height="15" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591306564259" />
+    <state width="1852" height="15" key="GridCell.Tab.0.center" timestamp="1591306564259">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="15" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591294927566" />
-    <state width="1852" height="15" key="GridCell.Tab.0.left" timestamp="1591294927566">
+    <state width="1852" height="15" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591306564259" />
+    <state width="1852" height="15" key="GridCell.Tab.0.left" timestamp="1591306564259">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="15" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591294927566" />
-    <state width="1852" height="15" key="GridCell.Tab.0.right" timestamp="1591294927566">
+    <state width="1852" height="15" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591306564259" />
+    <state width="1852" height="15" key="GridCell.Tab.0.right" timestamp="1591306564259">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="15" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591294927566" />
+    <state width="1852" height="15" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591306564259" />
     <state x="126" y="0" key="SettingsEditor" timestamp="1591035623495">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
