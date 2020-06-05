@@ -32,11 +32,16 @@ public class MinesweeperGame extends Game {
         // (флагов, мин, чисел).
         // Используй метод setCellValue(int, int, String).
         // В качестве последнего параметра передай пустую строку.
+      //  if (isGameStopped) {
             for (int i = 0; i < SIDE; i++) {
                 for (int j = 0; j < SIDE; j++) {
+                    /*gameField[j][i].isFlag = false;
+                    gameField[j][i].isMine = false;
+                    gameField[j][i].isOpen = false;*/
                     setCellValue(i, j, "");
                 }
             }
+       // }
 
         // Инициализация поля
         for (int y = 0; y < SIDE; y++) {
