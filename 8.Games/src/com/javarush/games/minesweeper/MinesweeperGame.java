@@ -7,10 +7,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MinesweeperGame extends Game {
-    private static final int SIDE = 9;
+    private static final int SIDE = 9; // размер квадратного игрового поля
     private static final String MINE = "\uD83D\uDCA3";
-    private GameObject[][] gameField = new GameObject[SIDE][SIDE];
-    private int countMinesOnField;
+    private static final String FLAG = "\uD83D\uDEA9";
+
+    private GameObject[][] gameField = new GameObject[SIDE][SIDE]; // массив ячеек поля
+    private int countMinesOnField; // количество мин на поле
+    private int countFlags; // количество неиспользованных флагов
 
 
     @Override
@@ -31,6 +34,7 @@ public class MinesweeperGame extends Game {
             }
         }
         countMineNeighbors();
+        this.countFlags = this.countMinesOnField;
     }
 
     private List<GameObject> getNeighbors(GameObject gameObject) {
