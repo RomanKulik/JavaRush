@@ -76,26 +76,54 @@ public class MinesweeperGame extends Game {
 
     private void openTile(int x, int y) {
         GameObject go = gameField[y][x];
+        // В методе openTile(int, int) элементу матрицы gameField
+        // должно устанавливаться значение поля isOpen, равное true,
+        go.isOpen = true;
+        // и отрисовываться фон ячейки с помощью метода setCellColor(int, int, Color).
+        // Например, в Color.GREEN.
+        setCellColor(x, y, Color.GREEN);
         // Метод openTile(int, int) должен отрисовывать MINE,
         // если gameObject по текущим координатам является миной.
         // Используй метод setCellValue(int, int, String).
         if (go.isMine) {
             setCellValue(x, y, this.MINE);
-            //setCellColor(x,y, Color.RED);
+            setCellColor(x, y, Color.RED);
         } else {
-            // Метод openTile(int, int) должен отрисовывать количество соседей-мин,
-            // если gameObject по текущим координатам не является миной.
-            // Используй метод setCellNumber(int, int, int).
-            setCellNumber(x, y, go.countMineNeighbors);
-            // В методе openTile(int, int) элементу матрицы gameField
-            // должно устанавливаться значение поля isOpen, равное true,
-            // и отрисовываться фон ячейки с помощью метода setCellColor(int, int, Color).
-            // Например, в Color.GREEN.
-            go.isOpen = true;
-            setCellColor(x, y, Color.GREEN);
+            // В методе openTile(int, int), если элемент не является миной и
+            // количество соседей-мин равно нулю,для каждого не открытого соседа
+            // должен рекурсивно вызываться метод openTile(int, int).
+            if (go.countMineNeighbors == 0) {
+                // При открытии ячейки с нулевым количеством "заминированных" соседей
+                // нам нужно сделать полный перебор всех закрытых соседних ячеек,
+                // вызвать у них метод openTile(int, int) и повторить процесс.
+                // Метод openTile(int, int) должен вызывать метод getNeighbors(GameObject),
+                // если элемент не является миной и количество соседей-мин равно нулю.
+                List<GameObject> gameObjectList = getNeighbors(go);
+                for (GameObject g : gameObjectList) {
+                    if (!g.isOpen) {
+                        //  В методе openTile(int, int), если элемент не является миной
+                        //  и количество соседей-мин равно нулю,
+                        //  для каждого не открытого соседа должен рекурсивно
+                        //  вызываться метод openTile(int, int).
+                        openTile(g.x, g.y);
+                    }
+                }
+                // Метод openTile(int, int) не должен ничего выводить,
+                // если элемент не является миной и количество соседей мин равно нулю.
+                // Используй пустую строку.
+                setCellValue(x, y, "");
+            } else {
+                //В методе openTile(int, int), если элемент не является миной
+                // и количество соседей мин не равняется нулю, на игровое
+                // поле должно выводиться количество заминированных соседей.
+                // Используй метод setCellNumber(int, int, int).
+                // Метод openTile(int, int) должен отрисовывать количество соседей-мин,
+                // если gameObject по текущим координатам не является миной.
+                // Используй метод setCellNumber(int, int, int).
+                setCellNumber(x, y, go.countMineNeighbors);
+            }
         }
     }
-
     @Override
     public void onMouseLeftClick(int x, int y) {
         //super.onMouseLeftClick(x, y);
