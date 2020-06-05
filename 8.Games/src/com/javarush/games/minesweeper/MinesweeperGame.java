@@ -124,9 +124,46 @@ public class MinesweeperGame extends Game {
             }
         }
     }
+
+    private void markTile(int x, int y) {
+        GameObject gameObject = this.gameField[y][x];
+        // Метод markTile(int x, int y) не должен ничего делать,
+        // если элемент уже открыт (isOpen == true).
+        // Метод markTile(int, int) не должен ничего делать,
+        // если количество неиспользованных флагов countFlags равно нулю,
+        // и текущий элемент — не флаг (isFlag = false).
+        if (!gameObject.isOpen && this.countFlags != 0 && !gameObject.isFlag) {
+            // Метод markTile(int, int) должен устанавливать значение поля isFlag в true,
+            gameObject.isFlag = true;
+            // уменьшать количество неиспользованных флагов на единицу,
+            this.countFlags--;
+            // отрисовывать на поле знак FLAG, если текущий элемент — не флаг
+            // (используй метод setCellValue(int, int, String))
+            setCellValue(x, y, this.FLAG);
+            // и менять фон ячейки на поле, используя метод setCellColor(int, int, Color).
+            // Например, в Color.YELLOW.
+            setCellColor(x, y, Color.YELLOW);
+        } else if (gameObject.isFlag) {
+            // Метод markTile(int, int) должен устанавливать значение поля isFlag в false,
+            gameObject.isFlag = false;
+            // увеличивать количество неиспользованных флагов на единицу,
+            this.countFlags++;
+            // отрисовывать на поле пустую ячейку, если текущий элемент — флаг
+            // (используй метод setCellValue(int, int, String))
+            setCellValue(x, y, "");
+            // и возвращать исходный цвет ячейки (используй метод setCellColor(int, int, Color)).
+            setCellColor(x, y, Color.ORANGE);
+        }
+    }
+
     @Override
     public void onMouseLeftClick(int x, int y) {
         //super.onMouseLeftClick(x, y);
         openTile(x, y);
+    }
+
+    @Override
+    public void onMouseRightClick(int x, int y) {
+        markTile(x, y);
     }
 }
