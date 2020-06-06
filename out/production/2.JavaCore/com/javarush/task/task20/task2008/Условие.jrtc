@@ -1,6 +1,4 @@
-taskKey="com.javarush.task.task20.task2008"
-
-Как сериализовать Singleton?
+taskKey="com.javarush.task.task20.task2008"\n\nКак сериализовать Singleton?
 
 Два десериализованных объекта singleton и singleton1 имеют разные ссылки в памяти, а должны иметь одинаковые.
 В класс Singleton добавь один метод (погуглите), чтобы после десериализации ссылки на объекты были равны.
