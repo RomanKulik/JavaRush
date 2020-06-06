@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class ReadFromFile {
     public static void main(String[] args) throws FileNotFoundException {
         // https://www.youtube.com/watch?v=j3I-jLGW8yU&list=PLAma_mKffTOSUkXp26rgdnC0PicnmnDak&index=37
-        
+
         // Статическая константа-сепаратор файловой системы, который подставится в зависимости от ОС
         String path0 = "d:\\User\\Рабочий стол\\test.txt"; // с привязкой к Windows
 
