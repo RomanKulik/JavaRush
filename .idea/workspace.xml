@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="MinesweeperGame: Step 2">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/Help/RWReadFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.JavaCore/src/Help/RWReadFromFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/Help/RWWriteToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.JavaCore/src/Help/RWWriteToFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/Help/ReadFromFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/Help/WriteToFile.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +49,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/User/Dev/GitHub/GitProjects/JavaRush/Levels/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1909/Условие.jrtc" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -65,7 +63,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.20846905" />
   </component>
   <component name="RecentsManager">
@@ -533,22 +531,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="343" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1591292357292" />
-    <state width="1852" height="229" key="GridCell.Tab.0.bottom" timestamp="1591534437328">
+    <state width="1852" height="229" key="GridCell.Tab.0.bottom" timestamp="1591542448711">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591534437328" />
-    <state width="1852" height="229" key="GridCell.Tab.0.center" timestamp="1591534437327">
+    <state width="1852" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591542448711" />
+    <state width="1852" height="229" key="GridCell.Tab.0.center" timestamp="1591542448710">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="229" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591534437327" />
-    <state width="1852" height="229" key="GridCell.Tab.0.left" timestamp="1591534437327">
+    <state width="1852" height="229" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591542448710" />
+    <state width="1852" height="229" key="GridCell.Tab.0.left" timestamp="1591542448710">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="229" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591534437327" />
-    <state width="1852" height="229" key="GridCell.Tab.0.right" timestamp="1591534437328">
+    <state width="1852" height="229" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591542448710" />
+    <state width="1852" height="229" key="GridCell.Tab.0.right" timestamp="1591542448711">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="229" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591534437328" />
+    <state width="1852" height="229" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591542448711" />
     <state width="1852" height="397" key="GridCell.Tab.1.bottom" timestamp="1591455785194">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -565,10 +563,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1852" height="397" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591455785194" />
-    <state x="126" y="0" key="SettingsEditor" timestamp="1591035623495">
+    <state x="52" y="0" key="SettingsEditor" timestamp="1591539853885">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="126" y="0" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1591035623495" />
+    <state x="52" y="0" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1591539853885" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1591030723563">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
