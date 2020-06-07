@@ -5,22 +5,22 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ReadFromFile {
+public class RWReadFromFile {
     public static void main(String[] args) throws FileNotFoundException {
         // https://www.youtube.com/watch?v=j3I-jLGW8yU&list=PLAma_mKffTOSUkXp26rgdnC0PicnmnDak&index=37
 
         // Статическая константа-сепаратор файловой системы, который подставится в зависимости от ОС
-        String path0 = "d:\\User\\Рабочий стол\\test.txt"; // с привязкой к Windows
+        String path0 = "d:\\User\\Рабочий стол\\RWReadFromFileTest.txt"; // с привязкой к Windows
 
         // без привязки к ОС
         String separator = File.separator;
-        String path = separator + "d:" + separator + "User" + separator + "Рабочий стол" + separator + "test.txt";
+        String path = separator + "d:" + separator + "User" + separator + "Рабочий стол" + separator + "RWReadFromFileTest.txt";
 
         // абстракция, которая позволяет работать с реальным файлом
         File file = new File(path);
 
         // Если файл в корневом каталоге (JavaRushTasks) проекта
-        File file2 = new File("ReadFromFileTest");
+        File file2 = new File("RWReadFromFileTest");
         Scanner scannerFile2 = new Scanner(file2);
         System.out.println(scannerFile2.nextLine());
         scannerFile2.close();
