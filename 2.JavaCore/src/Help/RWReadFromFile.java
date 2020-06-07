@@ -4,11 +4,27 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
+/**
+ * Вычитать из файла текст
+ * https://www.youtube.com/watch?v=j3I-jLGW8yU&list=PLAma_mKffTOSUkXp26rgdnC0PicnmnDak&index=37
+ *
+ * File file = new File("filename.txt");
+ * File.separator
+ * String separator = File.separator
+ *
+ * Scanner
+ * scanner.nextLine()
+ * scanner.hasNextLine()
+ * scanner.close();
+ *
+ * System.in
+ * System.out
+ *
+ * FileNotFoundException
+*/
 
 public class RWReadFromFile {
     public static void main(String[] args) throws FileNotFoundException {
-        // https://www.youtube.com/watch?v=j3I-jLGW8yU&list=PLAma_mKffTOSUkXp26rgdnC0PicnmnDak&index=37
-
         // Статическая константа-сепаратор файловой системы, который подставится в зависимости от ОС
         String path0 = "d:\\User\\Рабочий стол\\RWReadFromFileTest.txt"; // с привязкой к Windows
 
