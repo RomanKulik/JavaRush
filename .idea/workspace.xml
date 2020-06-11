@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="MinesweeperGame: Step 2">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +86,7 @@
       <recent name="com.javarush.task.task16.task1601" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerializationArrayReadObject">
+  <component name="RunManager" selected="Application.SerializationWriteObject">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -444,10 +443,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializationWriteObject" />
         <item itemvalue="Application.SerializationArrayReadObject" />
         <item itemvalue="Application.SerializationArrayWriteObject" />
         <item itemvalue="Application.SerializationReadObject" />
-        <item itemvalue="Application.SerializationWriteObject" />
         <item itemvalue="Application.WriteToFile" />
       </list>
     </recent_temporary>
