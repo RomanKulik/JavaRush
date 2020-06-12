@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="MinesweeperGame: Step 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2013/Solution$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2013/Solution$Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2013/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2013/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/User/Dev/GitHub/GitProjects/JavaRush/Levels/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1909/Условие.jrtc" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -86,7 +89,7 @@
       <recent name="com.javarush.task.task16.task1601" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -341,20 +344,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializationReadObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Help.SerializationReadObject" />
-      <module name="2.JavaCore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Help.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SerializationWriteObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Help.SerializationWriteObject" />
       <module name="2.JavaCore" />
@@ -376,6 +365,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task20.task2013.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2014.Solution" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task20.task2014.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -436,18 +439,18 @@
     <list>
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.SerializationWriteObject" />
-      <item itemvalue="Application.SerializationReadObject" />
       <item itemvalue="Application.SerializationArrayReadObject" />
       <item itemvalue="Application.SerializationArrayWriteObject" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.SerializationWriteObject" />
         <item itemvalue="Application.SerializationArrayReadObject" />
         <item itemvalue="Application.SerializationArrayWriteObject" />
-        <item itemvalue="Application.SerializationReadObject" />
       </list>
     </recent_temporary>
   </component>
@@ -518,10 +521,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="MinesweeperGame: Step 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="295" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591528225292">
+    <state x="605" y="295" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591973919951">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="605" y="295" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1591528225292" />
+    <state x="605" y="295" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1591973919951" />
     <state x="668" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1591905621816">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -534,22 +537,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="343" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1591292357292" />
-    <state width="1852" height="229" key="GridCell.Tab.0.bottom" timestamp="1591542448711">
+    <state width="1852" height="229" key="GridCell.Tab.0.bottom" timestamp="1591975769320">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591542448711" />
-    <state width="1852" height="229" key="GridCell.Tab.0.center" timestamp="1591542448710">
+    <state width="1852" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591975769320" />
+    <state width="1852" height="229" key="GridCell.Tab.0.center" timestamp="1591975769319">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="229" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591542448710" />
-    <state width="1852" height="229" key="GridCell.Tab.0.left" timestamp="1591542448710">
+    <state width="1852" height="229" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591975769319" />
+    <state width="1852" height="229" key="GridCell.Tab.0.left" timestamp="1591975769319">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="229" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591542448710" />
-    <state width="1852" height="229" key="GridCell.Tab.0.right" timestamp="1591542448711">
+    <state width="1852" height="229" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591975769319" />
+    <state width="1852" height="229" key="GridCell.Tab.0.right" timestamp="1591975769319">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="229" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591542448711" />
+    <state width="1852" height="229" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591975769319" />
     <state width="1852" height="397" key="GridCell.Tab.1.bottom" timestamp="1591455785194">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
