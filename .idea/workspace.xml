@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="MinesweeperGame: Step 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2013/Solution$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2013/Solution$Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2013/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2013/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -437,12 +435,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.SerializationWriteObject" />
       <item itemvalue="Application.SerializationArrayReadObject" />
       <item itemvalue="Application.SerializationArrayWriteObject" />
+      <item itemvalue="Application.SerializationWriteObject" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
@@ -537,22 +535,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="343" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1591292357292" />
-    <state width="1852" height="229" key="GridCell.Tab.0.bottom" timestamp="1591975769320">
+    <state width="1852" height="229" key="GridCell.Tab.0.bottom" timestamp="1591976067459">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591975769320" />
-    <state width="1852" height="229" key="GridCell.Tab.0.center" timestamp="1591975769319">
+    <state width="1852" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591976067459" />
+    <state width="1852" height="229" key="GridCell.Tab.0.center" timestamp="1591976067458">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="229" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591975769319" />
-    <state width="1852" height="229" key="GridCell.Tab.0.left" timestamp="1591975769319">
+    <state width="1852" height="229" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591976067458" />
+    <state width="1852" height="229" key="GridCell.Tab.0.left" timestamp="1591976067458">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="229" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591975769319" />
-    <state width="1852" height="229" key="GridCell.Tab.0.right" timestamp="1591975769319">
+    <state width="1852" height="229" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591976067458" />
+    <state width="1852" height="229" key="GridCell.Tab.0.right" timestamp="1591976067458">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="229" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591975769319" />
+    <state width="1852" height="229" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591976067458" />
     <state width="1852" height="397" key="GridCell.Tab.1.bottom" timestamp="1591455785194">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
