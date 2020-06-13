@@ -90,7 +90,7 @@
       <recent name="com.javarush.task.task16.task1601" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
+  <component name="RunManager" selected="Application.Solution (5)">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -331,20 +331,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2013.Solution" />
-      <module name="2.JavaCore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task20.task2013.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2014.Solution" />
       <module name="2.JavaCore" />
@@ -380,6 +366,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task20.task2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2020.Solution" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task20.task2020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -439,19 +439,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Serialization_InnerClass_RedefinitionRWObject_Video" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Serialization_InnerClass_RedefinitionRWObject_Video" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -538,22 +538,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="343" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1591292357292" />
-    <state width="1852" height="198" key="GridCell.Tab.0.bottom" timestamp="1592057076894">
+    <state width="1852" height="198" key="GridCell.Tab.0.bottom" timestamp="1592057317582">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1592057076894" />
-    <state width="1852" height="198" key="GridCell.Tab.0.center" timestamp="1592057076894">
+    <state width="1852" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1592057317582" />
+    <state width="1852" height="198" key="GridCell.Tab.0.center" timestamp="1592057317582">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="198" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1592057076894" />
-    <state width="1852" height="198" key="GridCell.Tab.0.left" timestamp="1592057076894">
+    <state width="1852" height="198" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1592057317582" />
+    <state width="1852" height="198" key="GridCell.Tab.0.left" timestamp="1592057317582">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="198" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1592057076894" />
-    <state width="1852" height="198" key="GridCell.Tab.0.right" timestamp="1592057076894">
+    <state width="1852" height="198" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1592057317581" />
+    <state width="1852" height="198" key="GridCell.Tab.0.right" timestamp="1592057317582">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="198" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1592057076894" />
+    <state width="1852" height="198" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1592057317582" />
     <state width="1852" height="397" key="GridCell.Tab.1.bottom" timestamp="1591455785194">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
