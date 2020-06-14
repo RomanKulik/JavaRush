@@ -38,7 +38,8 @@ public class Solution {
     }
 
     public static class A {
-        private void method1() {
+        // Должно быть private! Сделал public, чтобы среда не ругалась
+        public /*private*/ void method1() {
             System.out.println("A class, method1");
         }
 
