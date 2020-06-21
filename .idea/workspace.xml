@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="MinesweeperGame: Step 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2023/Solution$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2023/Solution$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2023/Solution$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2023/Solution$B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2023/Solution$C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2023/Solution$C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2023/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2.JavaCore/com/javarush/task/task20/task2023/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +94,7 @@
       <recent name="com.javarush.task.task16.task1601" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -317,20 +321,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="Serialization_InnerClass_RedefinitionRWObject_Video" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Help.Serialization_InnerClass_RedefinitionRWObject_Video" />
-      <module name="2.JavaCore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Help.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2022.Solution" />
       <module name="2.JavaCore" />
@@ -359,27 +349,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2019.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2025.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task20.task2019.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2020.Solution" />
-      <module name="2.JavaCore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task20.task2020.*" />
+          <option name="PATTERN" value="com.javarush.task.task20.task2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -404,6 +380,33 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="n (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2025.n" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task20.task2025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="n" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2025.n" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task20.task2025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -438,20 +441,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Serialization_InnerClass_RedefinitionRWObject_Video" />
-      <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.n (1)" />
+      <item itemvalue="Application.n" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.n" />
+        <item itemvalue="Application.n (1)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Serialization_InnerClass_RedefinitionRWObject_Video" />
       </list>
     </recent_temporary>
   </component>
@@ -496,15 +499,6 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="887000" />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
@@ -530,6 +524,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="668" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1591905621816" />
+    <state x="509" y="0" width="923" height="1080" key="#n_(1)" timestamp="1592416897263">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="509" y="0" width="923" height="1080" key="#n_(1)/0.0.1920.1080@0.0.1920.1080" timestamp="1592416897263" />
     <state x="571" y="319" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591036039724">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -538,38 +536,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="343" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1591292357292" />
-    <state width="1852" height="198" key="GridCell.Tab.0.bottom" timestamp="1592133114013">
+    <state width="1852" height="318" key="GridCell.Tab.0.bottom" timestamp="1592426293022">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1592133114013" />
-    <state width="1852" height="198" key="GridCell.Tab.0.center" timestamp="1592133114013">
+    <state width="1852" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1592426293022" />
+    <state width="1852" height="318" key="GridCell.Tab.0.center" timestamp="1592426293022">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="198" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1592133114013" />
-    <state width="1852" height="198" key="GridCell.Tab.0.left" timestamp="1592133114013">
+    <state width="1852" height="318" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1592426293022" />
+    <state width="1852" height="318" key="GridCell.Tab.0.left" timestamp="1592426293022">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="198" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1592133114013" />
-    <state width="1852" height="198" key="GridCell.Tab.0.right" timestamp="1592133114013">
+    <state width="1852" height="318" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1592426293022" />
+    <state width="1852" height="318" key="GridCell.Tab.0.right" timestamp="1592426293022">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="198" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1592133114013" />
-    <state width="1852" height="397" key="GridCell.Tab.1.bottom" timestamp="1591455785194">
+    <state width="1852" height="318" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1592426293022" />
+    <state width="1852" height="318" key="GridCell.Tab.1.bottom" timestamp="1592426293023">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="397" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591455785194" />
-    <state width="1852" height="397" key="GridCell.Tab.1.center" timestamp="1591455785194">
+    <state width="1852" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1592426293023" />
+    <state width="1852" height="318" key="GridCell.Tab.1.center" timestamp="1592426293023">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="397" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591455785194" />
-    <state width="1852" height="397" key="GridCell.Tab.1.left" timestamp="1591455785194">
+    <state width="1852" height="318" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1592426293023" />
+    <state width="1852" height="318" key="GridCell.Tab.1.left" timestamp="1592426293022">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="397" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591455785194" />
-    <state width="1852" height="397" key="GridCell.Tab.1.right" timestamp="1591455785194">
+    <state width="1852" height="318" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1592426293022" />
+    <state width="1852" height="318" key="GridCell.Tab.1.right" timestamp="1592426293023">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1852" height="397" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591455785194" />
+    <state width="1852" height="318" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1592426293023" />
     <state x="52" y="0" key="SettingsEditor" timestamp="1591539853885">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -582,6 +580,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="670" y="405" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591292157319" />
+    <state x="168" y="132" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592414855198">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="168" y="132" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080@0.0.1920.1080" timestamp="1592414855198" />
     <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1592119390799">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -604,6 +606,11 @@
           <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task17/task1702/Solution.java</url>
           <line>69</line>
           <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task20/task2025/Solution.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="143" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Arrays.java</url>
