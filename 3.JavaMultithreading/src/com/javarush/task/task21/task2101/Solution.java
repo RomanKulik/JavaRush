@@ -47,14 +47,21 @@ public class Solution {
         return b;                                                 
     }                                                  
                                                   
-    public static void print(byte[] bytes) {  
-        String result = "";
+    public static void print(byte[] bytes) {
+        String currentBinary;
+        for (byte aByte : bytes) {
+            currentBinary = Integer.toBinaryString(256 + (int) aByte);
+            System.out.print(currentBinary.substring(currentBinary.length() - 8) + " ");
+        }
+        System.out.println();
+
+      /*  String result = "";
         for (int i = 0, num; i < bytes.length; i++) {
             num = Byte.toUnsignedInt(bytes[i]);
             result += String.format("%8s", Integer.toBinaryString(num).replace(' ', '0'));
             result += ' ';
         }
-        System.out.println(result.trim());
+        System.out.println(result.trim());*/
 
         // System.out.println(String.format("%8s", Integer.toBinaryString(1)).replace(' ', '0')); //00000001
 
