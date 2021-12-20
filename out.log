@@ -576,3 +576,18 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2021-12-19 23:10:46 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-12-19 23:10:47 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2021-12-19 23:10:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-19 23:16:44 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2021-12-19 23:16:45 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-20 09:16:32 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2021-12-20 09:16:33 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.53 ----------
+
+2021-12-20 09:16:33 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2021-12-20 09:16:33 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2021-12-20 09:16:34 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2021-12-20 09:16:34 INFO  ApacheHttpClient.testConnection(220) - result = true
+2021-12-20 09:16:34 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-12-20 09:16:35 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-12-20 09:16:35 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-12-20 09:16:35 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-12-20 09:17:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200

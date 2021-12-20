@@ -89,43 +89,37 @@ public class Solution {
 Не переопределенный equals сравнивает ссылки.
 Если обе ссылки = null, вернет true.
 
-Оператор сравнения if сделает return false только в том случае, когда в скобке будет true.
-
-if (date != null ? !date.equals(other.date) : other.date != null) return false;
-
-
-
-if (date != null ? !date.equals(other.date) : other.date != null) return false;
-тоже, что и
-if (!Objects.equals(date, other.date)) return false;
-
-
-
 Переменные типа double сравниваются через статический метод класса Double, который возвращает
 -1, 0, 1
 
 if (Double.compare(aDouble, other.aDouble) != 0) return false;
 
 
+// Cannot use doubleToRawLongBits because of possibility of NaNs.
+// Double.compare() использует doubleToLongBits(), где проверяется на isNaN и вызывает doubleToRawLongBits()
 
 По сути equals сравнивает поля класса.
 При переопределении метода equals (а если его, то переопределяем и hashCode) должны использоваться все [значимые] поля класса
 
 В начале метода equals должны быть такие проверки:
 
-// Хорстман:
- if (this == other) return true; // сравнение по ссылкам
- if (o == null) return false; // сравнение other с null
+// Хорстманн:
+        if (this == other) return true; // сравнение по ссылкам
+        if (o == null) return false; // сравнение other с null
 
- // Если семантика проверки может измениться в подклассе
- if (!(this.getClass().getName().equals(other .getClass().getName()))) return false;
- // Если семантика одинакова для всех подклассов
- if (!(other instanceof Solution)) return false;
+        // Если семантика проверки может измениться в подклассе
+        if (!(this.getClass().getName().equals(other .getClass().getName()))) return false;
+        // Если семантика одинакова для всех подклассов
+        if (!(other instanceof Solution)) return false;
 
- // сравнение всех полей класса
+      // сравнение всех полей класса
  // примитивные типы сравниваем через ==
-// float преобразовываем в int через floatToIntBits() и сравниваем через ==
-// double преобразовываем в long через doubleToLongBits() и сравниваем через ==
+// float преобразовываем в int через floatToIntBits() и сравниваем через ==, или Float.compare()
+// Cannot use floatToRawIntBits because of possibility of NaNs.
+// Float.compare использует floatToIntBits(), где проверяется на isNaN и вызывается floatToRawIntBits()
+// double преобразовываем в long через doubleToLongBits() и сравниваем через ==, или Double.compare()
+// Cannot use doubleToRawLongBits because of possibility of NaNs.
+// Double.compare использует doubleToLongBits(), где проверяется на isNaN и вызывается doubleToRawLongBits()
 // объекты через equals()
 // поля типа массивов (как примитивов, так и Object-ов): Arrays.equals()
 
@@ -169,6 +163,17 @@ Objects.hash(obj1, obj2,...) - вернет hashCode состоящий из has
        // или в одну строку:
        return Objects.hash(anInt, aDouble, string, date, solution);
     }
+
+
+Оператор сравнения if сделает return false только в том случае, когда в скобке будет true.
+
+if (date != null ? !date.equals(other.date) : other.date != null) return false;
+
+
+if (date != null ? !date.equals(other.date) : other.date != null) return false;
+тоже, что и
+if (!Objects.equals(date, other.date)) return false;
+
 */
 
 /*
