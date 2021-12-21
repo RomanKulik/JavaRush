@@ -21,6 +21,7 @@ Requirements:
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class Solution implements Cloneable {
     public static void main(String[] args) {
@@ -53,39 +54,42 @@ public class Solution implements Cloneable {
         }
 
         @Override
-        protected Object clone() throws CloneNotSupportedException {
-            return super.clone();
-        }
-
-        @Override
         public boolean equals(Object o) {
             if (this == o) return true;
             if (o == null) return false;
-            if (this.getClass() != o.getClass()) return false;
+            if (getClass() != o.getClass()) return false;
             if (!(o instanceof User)) return false;
 
-            User user = (User) o;
-            if (name != null ? !name.equals(user.name) : user.name != null) return false;
-            return age == user.age;
+            User other = (User) o;
+            //if (name != null ? !name.equals(other.name) : name != null) return false;
+            Objects.equals(name, other.name);
+            return age == other.age;
         }
 
         @Override
         public int hashCode() {
-            int result = age;
+            /*int result = age;
             result = 31 * result + (name != null ? name.hashCode() : 0);
-            return result;
+            return result;*/
+            return Objects.hash(age, name);
+        }
+
+        @Override
+        public Object clone() throws CloneNotSupportedException {
+            return super.clone();
         }
     }
 
-    public Object clone() throws CloneNotSupportedException {
-        Solution o = (Solution) super.clone();
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        Solution o = new Solution();
 
-        Map<String, User> newUsers = new LinkedHashMap();
-        for (String key : o.users.keySet()) {
-            User user = o.users.get(key);
-            newUsers.put(key, (User) user.clone());
+        Map<String, User> newMap = new LinkedHashMap<>();
+        for (String key : users.keySet()) {
+            User newUser = users.get(key);
+            newMap.put(key, (User) newUser.clone());
         }
-        o.users = newUsers;
+        o.users = newMap;
 
         return o;
     }
