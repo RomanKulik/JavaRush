@@ -721,3 +721,342 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2021-12-21 16:41:44 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-12-21 16:41:44 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2021-12-21 16:41:45 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 18:57:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 18:57:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 19:22:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 19:22:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 19:22:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 19:22:34 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-21 19:22:34 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 19:24:35 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 19:24:36 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 19:24:36 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 19:24:36 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-21 19:24:37 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 19:27:31 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 19:27:31 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-21 19:27:33 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-21 19:27:34 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 19:41:56 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 19:41:57 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 19:41:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 19:41:58 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-21 19:41:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 19:42:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 19:42:05 WARN  PluginUtil.getCurrentTask(74) - Error while retrieving the task key.
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1927)
+	at com.homework.plugin.PluginUtil.getCurrentVirtualFile(PluginUtil.java:154)
+	at com.homework.plugin.PluginUtil.getCurrentTask(PluginUtil.java:65)
+	at com.homework.plugin.button.ForumButton.actionPerformed(ForumButton.java:47)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:261)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:278)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:183)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:147)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:415)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:702)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2021-12-21 19:42:05 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 19:43:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 19:46:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:13:15 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:13:15 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:13:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 20:13:16 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-21 20:14:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:16:23 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:16:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:16:24 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 20:16:25 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-21 20:16:27 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:16:27 WARN  PluginUtil.getCurrentTask(74) - Error while retrieving the task key.
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1927)
+	at com.homework.plugin.PluginUtil.getCurrentVirtualFile(PluginUtil.java:154)
+	at com.homework.plugin.PluginUtil.getCurrentTask(PluginUtil.java:65)
+	at com.homework.plugin.button.CorrectSolutionButton.actionPerformed(CorrectSolutionButton.java:57)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:261)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:278)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:183)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:147)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:415)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:702)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2021-12-21 20:16:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:16:55 WARN  PluginUtil.getCurrentTask(74) - Error while retrieving the task key.
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1927)
+	at com.homework.plugin.PluginUtil.getCurrentVirtualFile(PluginUtil.java:154)
+	at com.homework.plugin.PluginUtil.getCurrentTask(PluginUtil.java:65)
+	at com.homework.plugin.button.ValidateButton.actionPerformed(ValidateButton.java:57)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:261)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:278)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:183)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:147)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:415)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:702)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2021-12-21 20:16:55 WARN  PluginUtil.getCurrentDirectory(105) - Error while getting the current directory.
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1927)
+	at com.homework.plugin.PluginUtil.getCurrentVirtualFile(PluginUtil.java:154)
+	at com.homework.plugin.PluginUtil.getCurrentDirectory(PluginUtil.java:103)
+	at com.homework.plugin.button.ValidateButton.actionPerformed(ValidateButton.java:62)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:261)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:278)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:183)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:147)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:415)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:702)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2021-12-21 20:16:55 WARN  PluginUtil.getCurrentDirectory(105) - Error while getting the current directory.
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1927)
+	at com.homework.plugin.PluginUtil.getCurrentVirtualFile(PluginUtil.java:154)
+	at com.homework.plugin.PluginUtil.getCurrentDirectory(PluginUtil.java:103)
+	at com.homework.plugin.PluginUtil.getTaskTitle(PluginUtil.java:80)
+	at com.homework.plugin.button.ValidateButton.actionPerformed(ValidateButton.java:85)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:261)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:278)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:183)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:147)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:415)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:702)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2021-12-21 20:16:55 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 20:16:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:16:56 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-21 20:17:00 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:17:00 WARN  PluginUtil.getCurrentTask(74) - Error while retrieving the task key.
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1927)
+	at com.homework.plugin.PluginUtil.getCurrentVirtualFile(PluginUtil.java:154)
+	at com.homework.plugin.PluginUtil.getCurrentTask(PluginUtil.java:65)
+	at com.homework.plugin.button.CorrectSolutionButton.actionPerformed(CorrectSolutionButton.java:57)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:261)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:278)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:183)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:147)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:415)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:702)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2021-12-21 20:20:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:20:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:20:26 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 20:20:27 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-21 20:20:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 20:20:36 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 20:20:36 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 21:32:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-21 21:32:07 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-21 22:54:00 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2021-12-21 22:54:00 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 22:54:00 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 22:54:00 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-21 22:54:01 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-22 18:36:39 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2021-12-22 18:36:39 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.53 ----------
+
+2021-12-22 18:36:39 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2021-12-22 18:36:39 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2021-12-22 18:36:40 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2021-12-22 18:36:40 INFO  ApacheHttpClient.testConnection(220) - result = true
+2021-12-22 18:36:40 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-12-22 18:36:40 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-12-22 18:36:40 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-12-22 18:36:41 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-12-22 18:36:41 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-12-22 18:36:42 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-12-22 18:37:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-22 18:41:25 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-22 18:41:26 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-22 18:41:30 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-22 18:41:31 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-22 20:48:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-22 20:48:39 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-22 20:57:58 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-22 20:57:58 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-22 20:57:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-22 20:57:59 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-22 20:57:59 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
