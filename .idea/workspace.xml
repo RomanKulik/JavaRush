@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="MinesweeperGame: Step 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
-    </list>
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="MinesweeperGame: Step 2" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,26 +26,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2111/Solution.java">
+        <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2112/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-363">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="99">
+              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
+          <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2112/FakeConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="60" />
               <folding>
-                <element signature="class#User#0;class#Solution#0" />
-                <element signature="method#User#0;class#User#0;class#Solution#0" />
-                <element signature="method#toString#0;class#User#0;class#Solution#0" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.sql/java/sql/ResultSet.java">
+        <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2112/DBConnectionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="148" column="26" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="26" />
+            <state relative-caret-position="99">
+              <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2112/Условие.jrtc">
+          <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
         </entry>
       </file>
     </leaf>
@@ -85,6 +104,8 @@
         <option value="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2110/Solution.java" />
         <option value="/User solution/task2111/Solution.java" />
         <option value="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2111/Solution.java" />
+        <option value="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2112/FakeConnection.java" />
+        <option value="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2112/Solution.java" />
       </list>
     </option>
   </component>
@@ -142,101 +163,12 @@
               <item name="3.JavaMultithreading" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="task21" type="462c0819:PsiDirectoryNode" />
-              <item name="task2111" type="462c0819:PsiDirectoryNode" />
+              <item name="task2112" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 17.0.1 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 17.0.1 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 17.0.1 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 17.0.1 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 17.0.1 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 17.0.1 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 17.0.1 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 17.0.1 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 17.0.1 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 17.0.1 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="zip" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 17.0.1 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 17.0.1 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.sql" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (5)">
     <configuration default="true" type="ArquillianJUnit" factoryName="">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -560,13 +492,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task21.task2107.Solution" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task21.task2112.Solution" />
       <module name="3.JavaMultithreading" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task21.task2107.*" />
+          <option name="PATTERN" value="com.javarush.task.task21.task2112.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -626,19 +558,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (6)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (6)" />
       </list>
     </recent_temporary>
   </component>
@@ -686,6 +618,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16756757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -696,7 +629,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22222222" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33888888" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1025,9 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
-      <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.sql/java/sql/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1044,13 +974,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2111/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="231">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
           <folding>
             <element signature="class#User#0;class#Solution#0" />
             <element signature="method#User#0;class#User#0;class#Solution#0" />
             <element signature="method#toString#0;class#User#0;class#Solution#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2112/Условие.jrtc">
+      <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2112/DBConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
+      <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2112/FakeConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="60" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task21/task2112/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
