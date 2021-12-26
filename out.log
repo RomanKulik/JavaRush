@@ -1093,3 +1093,964 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2021-12-23 18:43:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-12-23 18:43:07 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2021-12-23 19:32:36 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-23 23:33:32 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-23 23:33:32 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-23 23:33:33 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-23 23:33:34 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-23 23:45:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-23 23:45:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-23 23:45:24 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-23 23:45:26 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-23 23:45:26 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-23 23:45:31 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-23 23:45:31 WARN  PluginUtil.getCurrentTask(74) - Error while retrieving the task key.
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1927)
+	at com.homework.plugin.PluginUtil.getCurrentVirtualFile(PluginUtil.java:154)
+	at com.homework.plugin.PluginUtil.getCurrentTask(PluginUtil.java:65)
+	at com.homework.plugin.button.ForumButton.actionPerformed(ForumButton.java:47)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:261)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:278)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:183)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:147)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:415)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:702)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2021-12-23 23:45:32 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-23 23:48:50 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-23 23:48:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-23 23:48:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-23 23:48:54 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-23 23:49:02 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-23 23:49:02 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-23 23:49:02 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-23 23:49:04 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-23 23:49:04 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-23 23:50:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-23 23:50:54 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-24 00:06:04 ERROR ApacheHttpClient.getServerAvailabilityStatus(568) - Error while checking server availability.
+java.util.concurrent.ExecutionException: java.net.ConnectException: Connection timed out: no further information
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:70)
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:80)
+	at com.homework.plugin.client.ApacheHttpClient.getResponseCode(ApacheHttpClient.java:577)
+	at com.homework.plugin.client.ApacheHttpClient.getServerAvailabilityStatus(ApacheHttpClient.java:546)
+	at com.homework.plugin.button.AbstractButton.isServerAvailable(AbstractButton.java:71)
+	at com.homework.plugin.button.SelectTaskButton.actionPerformed(SelectTaskButton.java:18)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:261)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:278)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:183)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:147)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:415)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:702)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:171)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:145)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:348)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:192)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-24 00:06:04 WARN  SelectTaskButton.isServerAvailable(79) - The server is unavailable. Wait a little, restart IntelliJ IDEA and try again.
+com.homework.plugin.analytics.PluginWarningException: warning
+	at com.homework.plugin.button.AbstractButton.isServerAvailable(AbstractButton.java:79)
+	at com.homework.plugin.button.SelectTaskButton.actionPerformed(SelectTaskButton.java:18)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:261)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:278)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:183)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:147)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:415)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:702)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2021-12-24 00:06:25 INFO  AnalyticsService.run(87) - 
+org.apache.http.conn.HttpHostConnectException: Connect to javarush.ru:443 [javarush.ru/18.196.51.113] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:80)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-12-24 00:06:25 INFO  AnalyticsService.run(87) - 
+org.apache.http.conn.HttpHostConnectException: Connect to javarush.ru:443 [javarush.ru/18.196.51.113] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:80)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-12-24 00:06:30 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2021-12-24 00:06:46 INFO  AnalyticsService.run(87) - 
+org.apache.http.conn.HttpHostConnectException: Connect to javarush.ru:443 [javarush.ru/18.196.51.113] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:80)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-12-24 00:06:51 ERROR ApacheHttpClient.getTask(492) - Error while downloading the task. Be sure you have a network connection and try again.
+java.util.concurrent.ExecutionException: java.net.ConnectException: Connection timed out: no further information
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:70)
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:80)
+	at com.homework.plugin.client.ApacheHttpClient.getResponseCode(ApacheHttpClient.java:577)
+	at com.homework.plugin.client.ApacheHttpClient.getTask(ApacheHttpClient.java:488)
+	at com.homework.plugin.PluginTasksProjectComponent$1.projectClosing(PluginTasksProjectComponent.java:216)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$1.projectClosing(ProjectManagerImpl.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.util.messages.impl.MessageBusConnectionImpl.deliverMessage(MessageBusConnectionImpl.java:114)
+	at com.intellij.util.messages.impl.MessageBusImpl.doPumpMessages(MessageBusImpl.java:393)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpWaitingBuses(MessageBusImpl.java:354)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpMessages(MessageBusImpl.java:343)
+	at com.intellij.util.messages.impl.MessageBusImpl.sendMessage(MessageBusImpl.java:320)
+	at com.intellij.util.messages.impl.MessageBusImpl.access$100(MessageBusImpl.java:29)
+	at com.intellij.util.messages.impl.MessageBusImpl$1.invoke(MessageBusImpl.java:192)
+	at com.sun.proxy.$Proxy17.projectClosing(Unknown Source)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.fireProjectClosing(ProjectManagerImpl.java:721)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.closeProject(ProjectManagerImpl.java:687)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.closeAndDisposeAllProjects(ProjectManagerImpl.java:633)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$disposeSelf$6(ApplicationImpl.java:237)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:220)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:178)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:168)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:154)
+	at com.intellij.openapi.application.impl.ApplicationImpl.disposeSelf(ApplicationImpl.java:235)
+	at com.intellij.openapi.application.impl.ApplicationImpl.doExit(ApplicationImpl.java:815)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:790)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:779)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:775)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:742)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:737)
+	at com.intellij.openapi.wm.impl.CloseProjectWindowHelper.quitApp(CloseProjectWindowHelper.kt:54)
+	at com.intellij.openapi.wm.impl.CloseProjectWindowHelper.windowClosing(CloseProjectWindowHelper.kt:35)
+	at com.intellij.openapi.wm.impl.IdeFrameImpl$4.windowClosing(IdeFrameImpl.java:289)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.Window.processWindowEvent(Window.java:2054)
+	at javax.swing.JFrame.processWindowEvent(JFrame.java:305)
+	at java.awt.Window.processEvent(Window.java:2013)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:706)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:171)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:145)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:348)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:192)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-24 00:06:51 INFO  AnalyticsService.run(87) - 
+org.apache.http.conn.HttpHostConnectException: Connect to javarush.ru:443 [javarush.ru/18.196.51.113] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:80)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-12-24 00:07:12 ERROR ApacheHttpClient.getTask(492) - Error while downloading the task. Be sure you have a network connection and try again.
+java.util.concurrent.ExecutionException: java.net.ConnectException: Connection timed out: no further information
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:70)
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:80)
+	at com.homework.plugin.client.ApacheHttpClient.getResponseCode(ApacheHttpClient.java:577)
+	at com.homework.plugin.client.ApacheHttpClient.getTask(ApacheHttpClient.java:488)
+	at com.homework.plugin.PluginTasksProjectComponent$1.projectClosing(PluginTasksProjectComponent.java:216)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$1.projectClosing(ProjectManagerImpl.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.util.messages.impl.MessageBusConnectionImpl.deliverMessage(MessageBusConnectionImpl.java:114)
+	at com.intellij.util.messages.impl.MessageBusImpl.doPumpMessages(MessageBusImpl.java:393)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpWaitingBuses(MessageBusImpl.java:354)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpMessages(MessageBusImpl.java:343)
+	at com.intellij.util.messages.impl.MessageBusImpl.sendMessage(MessageBusImpl.java:320)
+	at com.intellij.util.messages.impl.MessageBusImpl.access$100(MessageBusImpl.java:29)
+	at com.intellij.util.messages.impl.MessageBusImpl$1.invoke(MessageBusImpl.java:192)
+	at com.sun.proxy.$Proxy17.projectClosing(Unknown Source)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.fireProjectClosing(ProjectManagerImpl.java:721)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.closeProject(ProjectManagerImpl.java:687)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.closeAndDisposeAllProjects(ProjectManagerImpl.java:633)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$disposeSelf$6(ApplicationImpl.java:237)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:220)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:178)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:168)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:154)
+	at com.intellij.openapi.application.impl.ApplicationImpl.disposeSelf(ApplicationImpl.java:235)
+	at com.intellij.openapi.application.impl.ApplicationImpl.doExit(ApplicationImpl.java:815)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:790)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:779)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:775)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:742)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:737)
+	at com.intellij.openapi.wm.impl.CloseProjectWindowHelper.quitApp(CloseProjectWindowHelper.kt:54)
+	at com.intellij.openapi.wm.impl.CloseProjectWindowHelper.windowClosing(CloseProjectWindowHelper.kt:35)
+	at com.intellij.openapi.wm.impl.IdeFrameImpl$4.windowClosing(IdeFrameImpl.java:289)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.Window.processWindowEvent(Window.java:2054)
+	at javax.swing.JFrame.processWindowEvent(JFrame.java:305)
+	at java.awt.Window.processEvent(Window.java:2013)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:706)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:171)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:145)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:348)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:192)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-24 00:07:12 INFO  AnalyticsService.run(87) - 
+org.apache.http.conn.HttpHostConnectException: Connect to javarush.ru:443 [javarush.ru/18.196.51.113] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:80)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-12-24 00:07:33 INFO  AnalyticsService.run(87) - 
+org.apache.http.conn.HttpHostConnectException: Connect to javarush.ru:443 [javarush.ru/18.196.51.113] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:80)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-12-24 00:07:33 ERROR ApacheHttpClient.getTask(492) - Error while downloading the task. Be sure you have a network connection and try again.
+java.util.concurrent.ExecutionException: java.net.ConnectException: Connection timed out: no further information
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:70)
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:80)
+	at com.homework.plugin.client.ApacheHttpClient.getResponseCode(ApacheHttpClient.java:577)
+	at com.homework.plugin.client.ApacheHttpClient.getTask(ApacheHttpClient.java:488)
+	at com.homework.plugin.PluginTasksProjectComponent$1.projectClosing(PluginTasksProjectComponent.java:216)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$1.projectClosing(ProjectManagerImpl.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.util.messages.impl.MessageBusConnectionImpl.deliverMessage(MessageBusConnectionImpl.java:114)
+	at com.intellij.util.messages.impl.MessageBusImpl.doPumpMessages(MessageBusImpl.java:393)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpWaitingBuses(MessageBusImpl.java:354)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpMessages(MessageBusImpl.java:343)
+	at com.intellij.util.messages.impl.MessageBusImpl.sendMessage(MessageBusImpl.java:320)
+	at com.intellij.util.messages.impl.MessageBusImpl.access$100(MessageBusImpl.java:29)
+	at com.intellij.util.messages.impl.MessageBusImpl$1.invoke(MessageBusImpl.java:192)
+	at com.sun.proxy.$Proxy17.projectClosing(Unknown Source)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.fireProjectClosing(ProjectManagerImpl.java:721)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.closeProject(ProjectManagerImpl.java:687)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.closeAndDisposeAllProjects(ProjectManagerImpl.java:633)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$disposeSelf$6(ApplicationImpl.java:237)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:220)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:178)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:168)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:154)
+	at com.intellij.openapi.application.impl.ApplicationImpl.disposeSelf(ApplicationImpl.java:235)
+	at com.intellij.openapi.application.impl.ApplicationImpl.doExit(ApplicationImpl.java:815)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:790)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:779)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:775)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:742)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:737)
+	at com.intellij.openapi.wm.impl.CloseProjectWindowHelper.quitApp(CloseProjectWindowHelper.kt:54)
+	at com.intellij.openapi.wm.impl.CloseProjectWindowHelper.windowClosing(CloseProjectWindowHelper.kt:35)
+	at com.intellij.openapi.wm.impl.IdeFrameImpl$4.windowClosing(IdeFrameImpl.java:289)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.Window.processWindowEvent(Window.java:2054)
+	at javax.swing.JFrame.processWindowEvent(JFrame.java:305)
+	at java.awt.Window.processEvent(Window.java:2013)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:706)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:171)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:145)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:348)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:192)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-24 11:23:59 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2021-12-24 11:23:59 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.53 ----------
+
+2021-12-24 11:23:59 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2021-12-24 11:23:59 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2021-12-24 11:24:00 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2021-12-24 11:24:00 INFO  ApacheHttpClient.testConnection(220) - result = true
+2021-12-24 11:24:00 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-12-24 11:24:01 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-12-24 11:24:01 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-12-24 11:24:01 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-12-24 11:24:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 01:14:02 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2021-12-25 01:14:02 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 15:19:44 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2021-12-25 15:19:44 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.53 ----------
+
+2021-12-25 15:19:45 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2021-12-25 15:19:45 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2021-12-25 15:19:46 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2021-12-25 15:19:46 INFO  ApacheHttpClient.testConnection(220) - result = true
+2021-12-25 15:19:46 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-12-25 15:19:46 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-12-25 15:19:46 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-12-25 15:19:46 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-12-25 15:20:15 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:20:00 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:20:00 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 16:20:16 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 16:20:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:20:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:20:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:20:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 16:20:20 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 16:20:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:20:24 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 16:21:46 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:21:46 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:21:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 16:21:48 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 16:21:48 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 16:21:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:21:52 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 16:21:54 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 16:21:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:27:45 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:27:45 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:27:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 16:27:47 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 16:27:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 16:27:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:27:51 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 16:27:53 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 16:27:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:29:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:29:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:29:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 16:29:30 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 16:29:30 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 16:29:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:29:51 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 16:29:53 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 16:29:53 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:32:39 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:32:39 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:32:39 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 16:32:41 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 16:33:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:33:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 16:33:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:33:30 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 16:33:30 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 16:34:06 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:34:06 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 16:34:07 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 16:34:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:38:08 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:38:08 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:38:08 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 16:38:09 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 16:38:09 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 16:38:12 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:38:12 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 16:38:14 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 16:38:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:49:35 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 16:49:35 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 17:44:47 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 17:44:48 ERROR CorrectSolutionButton.actionPerformed(90) - Error while getting correct solution from server
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at com.homework.plugin.vf.HWDummyFileSystem.copyRecursively(HWDummyFileSystem.java:216)
+	at com.homework.plugin.vf.HWDummyFileSystem.copyRecursively(HWDummyFileSystem.java:213)
+	at com.homework.plugin.vf.HWDummyFileSystem.userVirtualFileToHWVirtualFile(HWDummyFileSystem.java:204)
+	at com.homework.plugin.button.CorrectSolutionButton$ShowDiffAction.run(CorrectSolutionButton.java:114)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1054)
+	at com.homework.plugin.button.CorrectSolutionButton.actionPerformed(CorrectSolutionButton.java:85)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:261)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:278)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:183)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:147)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:415)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:702)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2021-12-25 17:44:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 17:44:54 ERROR CorrectSolutionButton.actionPerformed(90) - Error while getting correct solution from server
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at com.homework.plugin.vf.HWDummyFileSystem.copyRecursively(HWDummyFileSystem.java:216)
+	at com.homework.plugin.vf.HWDummyFileSystem.copyRecursively(HWDummyFileSystem.java:213)
+	at com.homework.plugin.vf.HWDummyFileSystem.userVirtualFileToHWVirtualFile(HWDummyFileSystem.java:204)
+	at com.homework.plugin.button.CorrectSolutionButton$ShowDiffAction.run(CorrectSolutionButton.java:114)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1054)
+	at com.homework.plugin.button.CorrectSolutionButton.actionPerformed(CorrectSolutionButton.java:85)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:261)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:278)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:183)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:147)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:415)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:702)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2021-12-25 17:55:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 17:55:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 17:55:55 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 17:55:56 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 17:55:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 17:56:01 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 17:56:01 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 17:56:02 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 17:56:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 17:58:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 17:58:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 17:58:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 17:58:21 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 17:58:21 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 17:58:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 17:58:28 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 17:58:29 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 17:58:29 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:00:32 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:00:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:00:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:00:36 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 18:00:36 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:00:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:00:38 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 18:00:40 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 18:00:41 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:01:02 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:01:02 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 18:01:03 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 18:01:04 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:06:52 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:06:52 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:06:52 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:06:54 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 18:06:54 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:07:00 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:07:00 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 18:07:02 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 18:07:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:08:58 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:08:59 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:08:59 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:09:00 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 18:09:00 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:09:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:09:03 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 18:09:04 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 18:09:04 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 18:09:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:09:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:11:50 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:11:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:11:50 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:11:52 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 18:11:52 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:11:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:11:55 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 18:11:56 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 18:11:57 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:15:23 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:15:24 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:15:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:15:25 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 18:15:26 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:15:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:15:28 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 18:15:29 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 18:15:30 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 18:15:30 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:15:31 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:21:08 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:21:08 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 18:21:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:21:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:21:11 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:21:12 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 18:21:34 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:21:34 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:21:34 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:21:35 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 18:21:35 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:21:53 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:21:53 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 18:21:55 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 18:21:56 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:23:12 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:23:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:13 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:23:14 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-25 18:23:14 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:23:17 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-25 18:23:19 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-25 18:23:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-25 18:23:49 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2021-12-25 18:23:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:23:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-25 18:28:41 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2021-12-25 18:28:41 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.53 ----------
+
+2021-12-25 18:28:41 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2021-12-25 18:28:41 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2021-12-25 18:28:42 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2021-12-25 18:28:42 INFO  ApacheHttpClient.testConnection(220) - result = true
+2021-12-25 18:28:42 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-12-25 18:28:42 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-12-25 18:28:42 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-12-25 18:28:43 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-12-25 18:28:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 01:13:28 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2021-12-26 01:13:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 18:02:11 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2021-12-26 18:02:11 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.53 ----------
+
+2021-12-26 18:02:11 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2021-12-26 18:02:11 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2021-12-26 18:02:12 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2021-12-26 18:02:12 INFO  ApacheHttpClient.testConnection(220) - result = true
+2021-12-26 18:02:12 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-12-26 18:02:13 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-12-26 18:02:13 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-12-26 18:02:15 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-12-26 18:02:58 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 19:04:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 19:04:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 19:04:55 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 19:04:56 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-26 19:04:56 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 19:05:00 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 19:05:00 WARN  PluginUtil.getCurrentTask(74) - Error while retrieving the task key.
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1927)
+	at com.homework.plugin.PluginUtil.getCurrentVirtualFile(PluginUtil.java:154)
+	at com.homework.plugin.PluginUtil.getCurrentTask(PluginUtil.java:65)
+	at com.homework.plugin.button.ForumButton.actionPerformed(ForumButton.java:47)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:261)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:278)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:183)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:147)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:415)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:757)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:702)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:375)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2021-12-26 19:05:00 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 20:01:40 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 20:01:41 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 20:01:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 20:01:42 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-26 20:01:42 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 20:56:35 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 20:56:35 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 20:56:36 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 20:56:37 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-26 20:56:37 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 20:59:53 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 20:59:53 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 21:04:48 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 21:04:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 21:04:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 21:04:50 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-26 21:04:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 21:04:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 21:04:52 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-26 21:04:53 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-12-26 21:04:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 21:06:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 21:06:15 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 21:06:15 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 21:06:18 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-26 21:06:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 21:06:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 21:06:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 21:06:35 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-12-26 21:06:35 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-12-26 21:06:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 21:06:38 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-12-26 21:06:59 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-12-26 21:06:59 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
