@@ -15,8 +15,6 @@ Requirements:
 4. Метод getPartOfString должен возвращать подстроку между первой и второй табуляцией.
 */
 
-import java.util.Arrays;
-
 public class Solution {
     public static String getPartOfString(String string) throws TooShortStringException {
         if (string == null)
@@ -42,13 +40,13 @@ public class Solution {
 
     public static void main(String[] args) throws TooShortStringException {
         System.out.println(getPartOfString("\tJavaRush - лучший сервис \tобучения Java\t."));
-        System.out.println(Arrays.toString("I love Java -3".split(" ", -3)));
+       /* System.out.println(Arrays.toString("I love Java -3".split(" ", -3)));
         System.out.println(Arrays.toString("I love Java -2".split(" ", -2)));
         System.out.println(Arrays.toString("I love Java -1".split(" ", -1)));
         System.out.println(Arrays.toString("I love Java 0".split(" ", 0)));
         System.out.println(Arrays.toString("I love Java 1".split(" ", 1)));
         System.out.println(Arrays.toString("I love Java 2".split(" ", 2)));
-        System.out.println(Arrays.toString("I love Java 3".split(" ", 3)));
+        System.out.println(Arrays.toString("I love Java 3".split(" ", 3)));*/
     }
 }
 
