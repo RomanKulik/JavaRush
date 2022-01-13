@@ -2,6 +2,13 @@ package com.javarush.task.task22.task2205;
 
 /* 
 МНЕ нравится курс JavaRush
+МНЕ нравится курс JavaRush: String.format, перемена параметров, width - left padding -width - right padding
+    String.format return "%3$S%4$s %2$s %1$s"
+    %[argument_index$][flags][width][.precision]conversion
+    width - left padding
+    -width - right padding
+
+
 Исправить метод getFormattedString так,
 чтобы он возвращал строку с параметрами для форматирования.
 Параметры должны меняться местами.
