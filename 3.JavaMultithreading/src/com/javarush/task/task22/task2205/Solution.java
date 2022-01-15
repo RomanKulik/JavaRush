@@ -43,6 +43,7 @@ public class Solution {
         // If the width is not specified then there is no minimum.
         // https://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html
         System.out.println(String.format("%3$S%4$s %2$s%1$s", "JavaRush", "00курс", "00мне", "нравится"));
+        System.out.println(String.format("%3$S%4$s %2$s%1$s", "JavaRush", "00курс", "00мне", "нравится"));
         System.out.println(String.format("%3$S%4$1s %2$-1s%1$s", "JavaRush", "-01курс", "01мне", "нравится"));
         System.out.println(String.format("%3$S%4$2s %2$-2s%1$s", "JavaRush", "-02курс", "02мне", "нравится"));
         System.out.println(String.format("%3$S%4$3s %2$-3s%1$s", "JavaRush", "-03курс", "03мне", "нравится"));
@@ -71,6 +72,39 @@ public class Solution {
             15МНЕ       нравится -15курс        JavaRush
             20МНЕ            нравится -20курс             JavaRush
          */
+
+        System.out.printf("String     |%d| %n", 123);
+        System.out.printf("String -10 |%-10s| \n", 123);
+        System.out.printf("String  10 |%10s| %n", 123);
+        System.out.printf("String   5 |%5s| \n", 123);
+        System.out.printf("String  -5 |%-5s| %n", 123);
+        System.out.printf("String  10 |%10d| \n", 5);
+        System.out.printf("String  10 |%10d| %n", 100000);
+        System.out.printf("String -10 |%-10d| \n", 100000);
+        System.out.printf("String  10 |%10d| %n", 1234567890123L);
+        System.out.printf("String   5 |%5d| \n", 1234567890123L);
+        System.out.printf("String     |%s| \n", "abc");
+        System.out.printf("String -10 |%-10s| %n", "abc");
+        System.out.printf("String  10 |%10s| \n", "abc");
+        System.out.printf("String   5 |%5s| \n", "abc");
+        System.out.printf("String  -5 |%-5s| %n", "abc");
+        System.out.printf("String   5 |%5s| \n", "abcefghijklmnop");
+        /*  String     |123|
+            String -10 |123       |
+            String  10 |       123|
+            String   5 |  123|
+            String  -5 |123  |
+            String  10 |         5|
+            String  10 |    100000|
+            String -10 |100000    |
+            String  10 |1234567890123|
+            String   5 |1234567890123|
+            String     |abc|
+            String -10 |abc       |
+            String  10 |       abc|
+            String   5 |  abc|
+            String  -5 |abc  |
+            String   5 |abcefghijklmnop|*/
     }
 
     public static String getFormattedString() {
