@@ -3,6 +3,7 @@ package com.javarush.task.task22.task2209;
 /*
 Составить цепочку слов
 Составить цепочку слов: Arrays.sort(words, (o1, o2) -> { работает выборочно
+Составить цепочку слов: Recursion n! комбинаций
 В методе main считай с консоли имя файла,
 который содержит слова, разделенные пробелом.
 В методе getLine используя StringBuilder
@@ -52,10 +53,7 @@ Requirements:
 Получилось только тогда, когда прошли все тесты
 */
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -65,7 +63,7 @@ public class Solution {
     // Лист листов со всеми возможными комбинациями
     private static List<List<String>> resultList = new ArrayList<>();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnsupportedEncodingException {
         List<String> fileLines = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
              BufferedReader fr = new BufferedReader(new FileReader(br.readLine()))) {
@@ -106,24 +104,24 @@ public class Solution {
         // равна первой букве следующего слова
         deleteBadStrings(resultList);
 
-       // printList(resultList);
+        // printList(resultList);
 
         return printStringFromResult(0);
     }
 
     // Возвращает StringBuilder из resultList
-    public static StringBuilder printStringFromResult(int index){
+    public static StringBuilder printStringFromResult(int index) {
         ArrayList<String> arr = new ArrayList<>(resultList.get(index));
         StringBuilder sb = new StringBuilder();
-        for (String s: arr){
+        for (String s : arr) {
             sb.append(s).append(" ");
         }
-        return sb.deleteCharAt(sb.length()-1); // вернуть без пробела в конце
+        return sb.deleteCharAt(sb.length() - 1); // вернуть без пробела в конце
     }
 
     public static void deleteBadStrings(List<List<String>> list) {
         for (int i = 0; i < list.size(); i++) {
-            if(!isStringTrue(list.get(i))){
+            if (!isStringTrue(list.get(i))) {
                 list.remove(i);
                 i--;
             }
