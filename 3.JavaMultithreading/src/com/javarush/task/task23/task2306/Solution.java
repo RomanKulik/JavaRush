@@ -2,8 +2,7 @@ package com.javarush.task.task23.task2306;
 
 /* 
 Inner 2
-Inner 2: как добраться до методов private inner class из другого внешнего класса -
-нужно обернуть его вызов в какой-то public метод 
+Inner 2
 В классе SuperUser метод getDescription должен учитывать страну и город,
 т.е. возвращать результат аналогичный следующему:
 My name is George. I'm from Seattle in the United States.
