@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="MinesweeperGame: Step 2" />
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="MinesweeperGame: Step 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/out.log" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +29,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2305/Solution.java">
+        <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2306/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="165">
+              <caret line="5" column="49" lean-forward="true" selection-start-line="4" selection-end-line="5" selection-end-column="49" />
+              <folding>
+                <element signature="e#1103#1104#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+                <element signature="e#1477#1478#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,7 +51,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2305/Условие.jrtc">
+        <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2304/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2305/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2306/Условие.jrtc">
           <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
         </entry>
       </file>
@@ -117,6 +146,8 @@
         <option value="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2304/MockView.java" />
         <option value="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2304/Solution.java" />
         <option value="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2305/Solution.java" />
+        <option value="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2306/Class.java" />
+        <option value="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2306/Solution.java" />
       </list>
     </option>
   </component>
@@ -187,7 +218,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
               <item name="task23" type="462c0819:PsiDirectoryNode" />
+              <item name="task2304" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="3.JavaMultithreading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task23" type="462c0819:PsiDirectoryNode" />
               <item name="task2305" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="3.JavaMultithreading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="task23" type="462c0819:PsiDirectoryNode" />
+              <item name="task2306" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
@@ -348,7 +397,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Room">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -548,20 +597,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task22.task2209.Recursion" />
-      <module name="3.JavaMultithreading" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task22.task2209.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Room" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task23.task2312.Room" />
       <module name="3.JavaMultithreading" />
@@ -569,6 +604,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task23.task2312.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task23.task2306.Solution" />
+      <module name="3.JavaMultithreading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task23.task2306.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -684,19 +733,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Recursion" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Room" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Room" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -755,7 +804,7 @@
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1854054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18864866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -764,7 +813,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.057777777" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18666667" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24333334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -892,23 +941,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2013">
-          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4092">
-          <caret line="152" column="8" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task22/task2209/Условие.jrtc">
-      <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1055,9 +1087,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Компиляция">
-      <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Компиляция" />
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2312/KeyboardObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1186,13 +1216,7 @@
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2303/Условие.jrtc">
       <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2303/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2303/Car.java" />
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2303/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1221,29 +1245,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2305/Условие.jrtc">
+      <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2304/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#1745#1746#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1967#1968#0" expanded="true" />
-            <element signature="e#2036#2037#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="825">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2305/Условие.jrtc">
+    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2305/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2306/Условие.jrtc">
       <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
       <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2305/Solution.java">
+    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2306/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2306/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="49" lean-forward="true" selection-start-line="4" selection-end-line="5" selection-end-column="49" />
+          <folding>
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
