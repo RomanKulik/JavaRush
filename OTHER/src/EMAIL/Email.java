@@ -32,6 +32,13 @@ import java.util.Properties;
  * myEmail - adress from
  * tr.connect(null, "password"); - pass from myEmail
  * smb@yandex.ru - adress to
+ *
+ * resourses:
+ * Как отправить e-mail (статья JavaRUSH): https://javarush.ru/groups/posts/1226-kak-otpravitjh-pisjhmo-iz-java-prilozhenija-s-primerom
+ * Как отправить e-mail (видео): https://www.youtube.com/watch?app=desktop&v=lsat4guY1kc&ab_channel=%D0%A3%D1%80%D0%BE%D0%BA%D0%B8Java
+ * Класс Properties (видео): https://www.youtube.com/watch?v=sDvss9kz1nY&t=326s&ab_channel=%D0%A3%D1%80%D0%BE%D0%BA%D0%B8Java
+ *
+ * path to project: D:\User\Dev\GitHub\GitProjects\JavaRush\Levels\JavaRushTasks\OTHER\src\EMAIL\Email.java
  */
 
 public class Email {
