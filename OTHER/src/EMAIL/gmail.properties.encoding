@@ -1,0 +1,6 @@
+#gmail properties + encoding UTF-8
+#Tue Feb 08 21:27:33 EET 2022
+mail.transport.protocol=smtps
+mail.smtps.auth=true
+mail.smtps.host=smtp.gmail.com
+mail.smtps.user=myEmail@gmail.com

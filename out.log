@@ -3808,3 +3808,33 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2022-02-07 18:35:15 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2022-02-07 18:35:17 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2022-02-07 18:35:17 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-07 18:37:01 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-07 18:37:06 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 19:04:24 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2022-02-08 19:04:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 19:04:29 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 19:40:35 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2022-02-08 19:40:35 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.53 ----------
+
+2022-02-08 19:40:35 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2022-02-08 19:40:35 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2022-02-08 19:40:37 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2022-02-08 19:40:37 INFO  ApacheHttpClient.testConnection(220) - result = true
+2022-02-08 19:40:37 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-08 19:40:38 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-02-08 19:40:39 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-02-08 19:40:39 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-02-08 20:37:06 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2022-02-08 20:37:56 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2022-02-08 20:37:56 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.53 ----------
+
+2022-02-08 20:37:56 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2022-02-08 20:37:57 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2022-02-08 20:37:57 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2022-02-08 20:37:57 INFO  ApacheHttpClient.testConnection(220) - result = true
+2022-02-08 20:37:57 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-08 20:37:58 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-02-08 20:37:58 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-02-08 20:37:58 INFO  ApacheHttpClient.startGA(36) - GAService started.
