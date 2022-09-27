@@ -4056,3 +4056,12 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2022-09-27 21:21:04 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2022-09-27 21:21:06 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2022-09-27 21:21:06 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-27 21:23:53 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-27 21:23:54 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-09-27 21:23:56 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-09-27 21:23:58 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-27 21:25:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-27 21:25:08 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-27 21:25:08 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-27 21:25:09 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-09-27 21:25:09 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
