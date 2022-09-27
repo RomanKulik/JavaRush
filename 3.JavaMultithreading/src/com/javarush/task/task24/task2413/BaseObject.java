@@ -1,6 +1,6 @@
 package com.javarush.task.task24.task2413;
 
-public class BaseObject {
+public abstract class BaseObject {
     private double x;
     private double y;
     private double radius;
@@ -29,9 +29,31 @@ public class BaseObject {
         this.radius = radius;
     }
 
+
     public BaseObject (double x, double y, double radius){
         this.x = x;
         this.y = y;
         this.radius = radius;
     }
+
+
+    boolean intersects(BaseObject o) {
+        double dRadius = Math.max(o.getRadius(), this.getRadius());
+
+        double distPif = Math.sqrt(
+          Math.pow(o.getX() - this.getX(), 2) +
+          Math.pow(o.getY() - this.getY(), 2)
+        );
+
+       /* double distHypot = Math.hypot(
+                o.getX() - this.getX(),
+                o.getY() - this.getY()
+        );*/
+
+        return distPif <= dRadius;
+    }
+
+    abstract void draw(Canvas canvas);
+
+    abstract void move();
 }
