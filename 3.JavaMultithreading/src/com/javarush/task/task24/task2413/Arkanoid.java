@@ -3,6 +3,8 @@ package com.javarush.task.task24.task2413;
 import java.util.List;
 
 public class Arkanoid {
+    static Arkanoid game;
+
     private int width;
     private int height;
 
@@ -56,6 +58,9 @@ public class Arkanoid {
         this.height = height;
     }
 
+    public void move(){}
+
+    public void run() {}
 
     public static void main(String[] args) {
 
