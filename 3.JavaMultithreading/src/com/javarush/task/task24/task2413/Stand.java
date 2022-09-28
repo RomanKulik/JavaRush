@@ -33,8 +33,24 @@ public class Stand extends BaseObject {
     }
 
     @Override
-    public void draw(Canvas canvas){}
+    public void draw(Canvas canvas) {
+    }
 
+    /**
+     * Движение доски осуществляется горизонтально, поэтому мы меняем только координату х.
+     * Подумай, как координата х зависит от направления (direction) и скорости (speed). Реализуй зависимость.
+     * б) draw - см. draw в BaseObject
+     */
     @Override
-    public void move(){}
+    public void move() {
+        this.x += speed * direction;
+    }
+
+    void moveLeft() {
+        direction = -1;
+    }
+
+    void moveRight() {
+        direction = 1;
+    }
 }
