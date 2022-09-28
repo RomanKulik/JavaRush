@@ -1,13 +1,29 @@
 package com.javarush.task.task24.task2413;
 
+/**
+ * Класс для шарика в игре
+ */
 public class Ball extends BaseObject {
+    // скорость
     private double speed;
-    private double direction; // направление движения в градусах: от 0 до 360
-    // расстояние по x, которое проходит шарик за один шаг. вычисляется на основе speed и direction
+    // направление  (в градусах от 0 до 360)
+    private double direction;
+
+    // текущее значение вектора движения (dx,dy)
     private double dx;
-    // расстояние по y, которое проходит шарик за один шаг. вычисляется на основе speed и direction
     private double dy;
+
+    // заморожен ли объект или может двигаться
     private boolean isFrozen;
+
+    public Ball(double x, double y, double speed, double direction) {
+        super(x, y, 1);
+
+        this.direction = direction;
+        this.speed = speed;
+
+        this.isFrozen = true;
+    }
 
     public double getSpeed() {
         return speed;
@@ -21,87 +37,80 @@ public class Ball extends BaseObject {
         return direction;
     }
 
-    /**
-     * Во-первых нужен метод setDirection,
-     * который не только устанавливает значение переменной direction,
-     * но и вычисляет новые значения переменных dx и dy.
-     *
-     * @param direction
-     */
-    public void setDirection(double direction) {
-        this.direction = direction;
-        double angle = Math.toRadians(direction);
-        dx = Math.cos(angle) * speed;
-        dy = -Math.sin(angle) * speed;
-    }
-
     public double getDx() {
         return dx;
-    }
-
-    public void setDx(double dx) {
-        this.dx = dx;
     }
 
     public double getDy() {
         return dy;
     }
 
-    public void setDy(double dy) {
-        this.dy = dy;
-    }
-
-    public Ball(double x, double y, double speed, double direction) {
-        super(x, y, 1);
-        this.speed = speed;
+    /**
+     * Устанавливаем новое направление движения.
+     * Тут же вычисляем и новый вектор.
+     * Такой подход удобно использовать при отскоках от стен.
+     */
+    void setDirection(double direction) {
         this.direction = direction;
-        isFrozen = true;
-    }
 
-    public Ball(double x, double y, double radius) {
-        super(x, y, radius);
-    }
-
-    /**
-     * Во-вторых надо реализовать метод draw(Canvas canvas):
-     * на объекте canvas необходимо вызвать метод setPoint с параметрами (x, y, 'O')
-     */
-    @Override
-    public void draw(Canvas canvas) {
-        canvas.setPoint(getX(), getY(), 'O');
+        double angle = Math.toRadians(direction);
+        dx = Math.cos(angle) * speed;
+        dy = -Math.sin(angle) * speed;
     }
 
     /**
-     * а) x должен увеличиваться на dx каждый ход
-     * б) y должен увеличиваться на dy каждый ход
-     * если шарик "заморожен", то x и y меняться не должны
+     * Рисуем себя на "канвасе".
      */
     @Override
+    void draw(Canvas canvas) {
+        canvas.setPoint(x, y, 'O');
+    }
+
+    /**
+     * Двигаем себя на один шаг.
+     */
     public void move() {
-        if (!isFrozen) {
-            this.x += this.getDx();
-            this.y += this.getDy();
+        if (isFrozen) return;
+
+        x += dx;
+        y += dy;
+
+        checkRebound(1, Arkanoid.game.getWidth(), 1, Arkanoid.game.getHeight() + 5);
+    }
+
+    /**
+     * Проверяем не улетел ли шарик за стенку.
+     * Если да - отражаем его.
+     */
+    void checkRebound(int minx, int maxx, int miny, int maxy) {
+        if (x < minx) {
+            x = minx + (minx - x);
+            dx = -dx;
+        }
+
+        if (x > maxx) {
+            x = maxx - (x - maxx);
+            dx = -dx;
+        }
+
+        if (y < miny) {
+            y = miny + (miny - y);
+            dy = -dy;
+        }
+
+        if (y > maxy) {
+            y = maxy - (y - maxy);
+            dy = -dy;
         }
     }
 
     /**
-     * В-третьих надо создать и реализовать метод void start():
-     * именно его вызов "размораживает" шарик.
-     * Что для этого надо сделать - это ты уже сам реши.
+     * Запускам шарик.
+     * isFrozen = false.
+     * Пересчитываем вектор движения (dx,dy).
      */
     void start() {
+        this.setDirection(direction);
         this.isFrozen = false;
-    }
-
-    /**
-     * Во-вторых шарик может удариться о стенку.
-     * При этом он должен от нее отскочить.
-     * @param minx
-     * @param maxx
-     * @param miny
-     * @param maxy
-     */
-    void checkRebound(int minx, int maxx, int miny, int maxy){
-
     }
 }
