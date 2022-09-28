@@ -40,11 +40,13 @@ public abstract class BaseObject {
     boolean intersects(BaseObject o) {
         double dRadius = Math.max(o.getRadius(), this.getRadius());
 
+        // По теореме Пифагора
         double distPif = Math.sqrt(
           Math.pow(o.getX() - this.getX(), 2) +
           Math.pow(o.getY() - this.getY(), 2)
         );
 
+        // Через hypot = sqrt((x1-x2)^2 + (y1-y2)^2)
        /* double distHypot = Math.hypot(
                 o.getX() - this.getX(),
                 o.getY() - this.getY()

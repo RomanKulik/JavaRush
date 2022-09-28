@@ -4105,3 +4105,38 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2022-09-27 23:42:08 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2022-09-27 23:42:10 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2022-09-27 23:42:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-28 00:43:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-28 00:43:24 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 00:43:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-28 00:43:25 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-09-28 00:43:25 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:39 INFO  PluginTasksProjectComponent.projectClosing(196) - ---------- Project closed ----------
+
+2022-09-28 01:36:39 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:40 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:40 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:40 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:40 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:40 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:42 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 01:36:42 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-09-28 13:58:00 INFO  PluginTasksProjectComponent.projectOpened(79) - ---------- Project opened ----------
+2022-09-28 13:58:00 INFO  PluginTasksProjectComponent.projectOpened(80) - ---------- Version 3.53 ----------
+
+2022-09-28 13:58:00 INFO  ApacheHttpClient.createAsyncHttpClient(146) - 1 proxies selected. Type: DIRECT
+2022-09-28 13:58:01 INFO  ApacheHttpClient.<init>(97) - ApacheHttpClient was successfully instantiated.
+2022-09-28 13:58:03 INFO  ApacheHttpClient.testConnection(205) - responseCode = 200
+2022-09-28 13:58:03 INFO  ApacheHttpClient.testConnection(220) - result = true
+2022-09-28 13:58:03 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-09-28 13:58:04 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-09-28 13:58:04 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-09-28 13:58:04 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-09-28 13:58:29 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-28 14:03:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-09-28 14:03:06 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-09-28 14:03:09 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
