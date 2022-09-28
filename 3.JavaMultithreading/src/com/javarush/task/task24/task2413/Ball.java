@@ -3,8 +3,10 @@ package com.javarush.task.task24.task2413;
 public class Ball extends BaseObject {
     private double speed;
     private double direction; // направление движения в градусах: от 0 до 360
-    private double dx; // расстояние по x, которое проходит шарик за один шаг. вычисляется на основе speed и direction
-    private double dy; // расстояние по y, которое проходит шарик за один шаг. вычисляется на основе speed и direction
+    // расстояние по x, которое проходит шарик за один шаг. вычисляется на основе speed и direction
+    private double dx;
+    // расстояние по y, которое проходит шарик за один шаг. вычисляется на основе speed и direction
+    private double dy;
     private boolean isFrozen;
 
     public double getSpeed() {
@@ -50,11 +52,34 @@ public class Ball extends BaseObject {
         super(x, y, radius);
     }
 
+    /**
+     * Во-вторых надо реализовать метод draw(Canvas canvas):
+     * на объекте canvas необходимо вызвать метод setPoint с параметрами (x, y, 'O')
+     */
     @Override
     public void draw(Canvas canvas) {
+        canvas.setPoint(getX(), getY(), 'O');
     }
 
+    /**
+     * а) x должен увеличиваться на dx каждый ход
+     * б) y должен увеличиваться на dy каждый ход
+     * если шарик "заморожен", то x и y меняться не должны
+     */
     @Override
     public void move() {
+        if (!isFrozen) {
+            this.x += this.getDx();
+            this.y += this.getDy();
+        }
+    }
+
+    /**
+     * В-третьих надо создать и реализовать метод void start():
+     * именно его вызов "размораживает" шарик.
+     * Что для этого надо сделать - это ты уже сам реши.
+     */
+    void start() {
+        this.isFrozen = false;
     }
 }
