@@ -21,8 +21,18 @@ public class Ball extends BaseObject {
         return direction;
     }
 
+    /**
+     * Во-первых нужен метод setDirection,
+     * который не только устанавливает значение переменной direction,
+     * но и вычисляет новые значения переменных dx и dy.
+     *
+     * @param direction
+     */
     public void setDirection(double direction) {
         this.direction = direction;
+        double angle = Math.toRadians(direction);
+        dx = Math.cos(angle) * speed;
+        dy = -Math.sin(angle) * speed;
     }
 
     public double getDx() {
@@ -81,5 +91,17 @@ public class Ball extends BaseObject {
      */
     void start() {
         this.isFrozen = false;
+    }
+
+    /**
+     * Во-вторых шарик может удариться о стенку.
+     * При этом он должен от нее отскочить.
+     * @param minx
+     * @param maxx
+     * @param miny
+     * @param maxy
+     */
+    void checkRebound(int minx, int maxx, int miny, int maxy){
+
     }
 }

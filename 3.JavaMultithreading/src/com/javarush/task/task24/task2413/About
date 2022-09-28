@@ -343,3 +343,28 @@ Requirements:
 8. Модификатор доступа поля radius в классе BaseObject должен быть изменен на protected.
 
 
+Арканоид(15)
+Не поверишь, но и это еще не все. Продолжим реализацию класса Ball.
+
+Во-первых нужен метод setDirection, который не только устанавливает значение переменной direction, но и вычисляет новые значения переменных dx и dy.
+
+Код должен выглядеть примерно так:
+this.direction = direction;
+double angle = Math.toRadians(direction);
+dx = Math.cos(angle) * speed;
+dy = -Math.sin(angle) * speed.
+
+Во-вторых шарик может удариться о стенку.
+При этом он должен от нее отскочить.
+
+Для этого нам понадобится еще один метод:
+void checkRebound(int minx, int maxx, int miny, int maxy)
+
+Создай его, а кодом я займусь сам.
+
+
+Requirements:
+1. В классе Ball должен быть создан метод void setDirection() c одним параметром типа double (реализацию смотри в условии).
+2. В классе Ball должен быть создан метод void checkRebound c четырьмя параметрами типа int.
+
+
