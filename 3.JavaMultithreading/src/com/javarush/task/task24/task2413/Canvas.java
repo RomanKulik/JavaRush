@@ -74,16 +74,39 @@ public class Canvas {
      * setPoint(x+j, y+i, c)
      */
     void drawMatrix(double x, double y, int[][] matrix, char c) {
-        int rx = (int)Math.round(x);
-        int ry = (int)Math.round(y);
+        int rx = (int) Math.round(x);
+        int ry = (int) Math.round(y);
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
-                if(matrix[i][j] !=0 ){
-                    setPoint(x+j, y+i, c);
+                if (matrix[i][j] != 0) {
+                    setPoint(x + j, y + i, c);
                 }
             }
         }
     }
 
+    /**
+     * Еще Canvas понадобится два метода, напиши их.
+     * а) метод clear()
+     * Этот метод будет очищать матрицу, чтобы на ней снова можно было рисовать.
+     * Можешь просто заново инициализировать matrix пустым массивом правильной размерности.
+     */
+    void clear() {
+        this.matrix = new char[this.height+2][this.width+2];
+    }
+
+    /**
+     * б) метод print()
+     * Этот метод рисует матрицу на экран.
+     * Тут уже ты должен сам разобраться: вывести набор символов не так уж и сложно.
+     */
+    void print() {
+        for (int i = 0; i < this.matrix.length; i++) {
+            for (int j = 0; j < this.matrix[0].length; j++) {
+                System.out.print(this.matrix[i][j]);
+            }
+            System.out.println();
+        }
+    }
 }
