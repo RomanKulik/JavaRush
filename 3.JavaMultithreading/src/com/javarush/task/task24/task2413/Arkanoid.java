@@ -7,6 +7,7 @@ public class Arkanoid {
 
     private int width;
     private int height;
+    private boolean isGameOver;
 
     private Ball ball;
     private Stand stand;
@@ -56,6 +57,51 @@ public class Arkanoid {
     public Arkanoid(int width, int height) {
         this.width = width;
         this.height = height;
+    }
+
+    /**
+     * В этом методе надо проверить - не столкнулся ли шарик с каким-нибудь из "кирпичей".
+     * Для проверки столкновения используй метод intersects().
+     * Если шарик все-таки попал в кирпич, то:
+     * а) шарик отлетает в случайном направлении:
+     * double angle = Math.random() * 360;
+     * ball.setDirection(angle);
+     * б) кирпич умирает - надо удалить его из списка всех кирпичей.
+     */
+    public void checkBricksBump() {
+        for (Brick b : bricks) {
+            if (this.ball.intersects(b)) {
+                bricks.remove(b);
+                double angle = Math.random() * 360;
+                ball.setDirection(angle);
+                break;
+            }
+        }
+    }
+
+    /**
+     * В этом методе надо проверить - не ударился ли шарик о подставку.
+     * Для проверки столкновения используй метод intersects().
+     * Если шарик все-таки ударился о подставку, то:
+     * шарик отлетает в случайным направлении вверх:
+     * double angle = 90 + 20 * (Math.random() - 0.5);
+     * ball.setDirection(angle);
+     */
+    public void checkStandBump() {
+        if (ball.intersects(stand)) {
+            double angle = 90 + 20 * (Math.random() - 0.5);
+            ball.setDirection(angle);
+        }
+    }
+
+    /**
+     * Если координата y шарика больше чем высота поля игры (height),
+     * значит шарик улетел вниз за границу экрана.
+     * В этом случае надо переменную isGameOver установить в true.
+     */
+    public void checkEndGame(){
+        if (ball.y > height)
+            isGameOver = true;
     }
 
     public void move() {
